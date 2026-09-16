@@ -54,6 +54,29 @@ More retrieved detail can matter without making every detail accurate. More even
 
 A photograph also has two different relationships to a later account. It is evidence about some visible features of an event, and it may act as a cue for recollection. Neither role makes the photograph a complete record of the event or of the person experiencing it.
 
+### Partial observers, a richer event account
+
+Different sources can reveal different parts of an event. The conceptual relationship is:
+
+```mermaid
+flowchart TB
+    E["Past event<br/>Only partly observed"] --> H["Participant accounts<br/>Recalled or reported"]
+    E --> P["Photographs<br/>and recordings"]
+    E --> S["Other sensor records"]
+    H --> C["Compare available, authorized evidence<br/>Complementary details, agreements and conflicts"]
+    P --> C
+    S --> C
+    C --> R["Best-effort event reconstruction<br/>Revisable, with visible gaps"]
+    classDef source fill:#F2E9D8,stroke:#25231F,color:#25231F;
+    classDef process fill:#153D40,stroke:#869099,color:#F2E9D8;
+    classDef result fill:#406C90,stroke:#869099,color:#F2E9D8;
+    class E,H,P,S source;
+    class C process;
+    class R result;
+```
+
+Only evidence available and authorized for this use contributes. Sources, inference, gaps and disagreements remain distinguishable; withheld material remains absent. A richer account does not establish anyone's original experience or guarantee accuracy. The diagram describes a conceptual relationship, not a validated reconstruction pipeline.
+
 ### Replay, Observer and Arcade
 
 | Mode | Intended activity | Required epistemic distinction |
@@ -75,6 +98,23 @@ Preserving a life across time includes preserving why earlier decisions were mad
 | Deliberately entrenched commitment | Preserve the prospective terms defining its force and revision. | Treating entrenchment as necessarily absolute, or inventing an escape power after the fact |
 | Institutional mandate or office | Continued authority depends on the legitimate mandate and current grant. | Confusing mission membership or access to assigned resources with basic standing |
 | Successor lineage | Context and causal descent may continue despite disagreement. | Treating descent as automatic representation authority or rejection of the founder as loss of possible personhood |
+
+A lineage can also branch. This illustrative notation makes simultaneous descendants and later generations visible:
+
+```mermaid
+flowchart TB
+    A["A0<br/>Original source person"] --> B["C1A<br/>First-generation branch"]
+    A --> C["C1B<br/>First-generation branch"]
+    B --> D["C2A1<br/>Later branch"]
+    B --> F["C2A2<br/>Later branch"]
+    C --> G["C2B<br/>Later branch"]
+    classDef origin fill:#153D40,stroke:#869099,color:#F2E9D8;
+    classDef branch fill:#F2E9D8,stroke:#25231F,color:#25231F;
+    class A origin;
+    class B,C,D,F,G branch;
+```
+
+The arrows indicate descent only. They do not establish subjective continuity, personhood, permission to represent A0, or an inherited mandate. Generation depth is not a continuity level: C2 is a lineage label, not Level 2 in the six-threshold framework.
 
 The distinction between an office and a person is central. A successor who rejects a project may lose authority to represent it or control mission-bound assets under legitimate terms. That does not by itself decide the successor's standing or right to exist.
 
@@ -137,6 +177,25 @@ The central coexistence question is how shared limits on domination can support 
 
 **Adaptive Federation** names a direction for collaboration: participants can contribute, withhold material, contest interpretations and correct a plan while retaining legitimate standing. A contribution mechanism needs an actual way to check results, recognize useful work and handle disagreement. A repository name, proof label or reputation score cannot substitute for those observations.
 
+### Five concepts, different questions
+
+The civilizational concepts address different aspects of the proposed framework:
+
+```mermaid
+flowchart LR
+    Q["Civilizational coexistence<br/>Five conceptual questions"] --- C["Civilizational Alignment<br/>What interacting system is being considered?"]
+    Q --- F["Adaptive Federation<br/>How can plural actors coordinate and contest?"]
+    Q --- H["Dynamic homeostasis<br/>How is viable coexistence sustained through change?"]
+    Q --- M["Maximum Sustainable Acceleration<br/>How can progress preserve capacity for further progress?"]
+    Q --- U["Universal Altruism<br/>What positive direction is being pursued?"]
+    classDef question fill:#F2E9D8,stroke:#25231F,color:#25231F;
+    classDef concept fill:#153D40,stroke:#869099,color:#F2E9D8;
+    class Q question;
+    class C,F,H,M,U concept;
+```
+
+The connecting lines associate questions. They do not describe a causal sequence, institutional hierarchy, proven benefits or an exhaustive theory. Dynamic homeostasis means sustaining viable coexistence through change, not freezing the system in place. The [alignment assessment](research/ALIGNMENT.md#the-retained-architecture) explains the conceptual roles, supporting evidence and open disputes separately.
+
 ## Exploration without false certainty
 
 The Replicator is a North Star for radically more flexible material production. Its role is to direct questions toward capabilities and discoveries that could reduce scarcity. Existing manufacturing improvements and unknown breakthrough possibilities belong in different evidentiary categories; neither should erase the other.
@@ -148,7 +207,7 @@ The frontier map therefore retains two lanes:
 
 Useful intermediate discoveries and strong negative results can both advance the program. Serendipity is a reason to remain receptive to consequential findings, not permission to silently expand every mission. New research still requires a question that can produce interpretable evidence.
 
-Maximum Sustainable Acceleration is retained as a governing heuristic: pursue trajectories that preserve the capacity to learn, cooperate and continue advancing. It is not a measured optimum or a universal speed limit. Reversibility, uncertainty, feedback quality and consequences affect what a responsible next step looks like.
+Maximum Sustainable Acceleration is retained as a governing heuristic: pursue trajectories that preserve the capacity to learn, cooperate and continue advancing. It is not a measured optimum or a universal speed limit. Reversibility, uncertainty, feedback quality and consequences affect what a responsible next step looks like. The [existing decision matrix](research/ALIGNMENT.md#maximum-sustainable-acceleration) sets out conditional postures and the limits on emergency authority. Those postures do not themselves issue operational grants.
 
 ## The article as a navigation route
 
