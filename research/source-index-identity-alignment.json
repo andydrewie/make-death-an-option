@@ -1,0 +1,635 @@
+{
+  "record_type": "public_safe_derivative_source_index",
+  "version": "v2",
+  "prepared_date": "2026-09-17",
+  "checking_window": {
+    "original_public_acquisition_and_checks": "2026-09-13 UTC / 2026-09-14 Asia/Taipei",
+    "meaning": "Historical acquisition and targeted checking window reported by the completed evidence packets; not a continuous currency claim.",
+    "current_task_public_retrieval": "2026-09-17: bounded bibliographic locator recovery only; original substantive assessments unchanged"
+  },
+  "status_vocabulary": {
+    "packet_exact": "The public URL appears verbatim in an authorized evidence packet.",
+    "identifier_resolver": "The authorized packet exposes an exact public identifier and version; the derivative uses the ordinary resolver form. The URL string itself was not printed in the packet and was not independently checked in this task.",
+    "canonical_endpoint_unverified": "The authorized packet names an exact public standard or instrument; the derivative uses its canonical public endpoint. The URL string was not printed in the packet and was not independently checked in this task.",
+    "not_exposed": "The authorized packet supplies a source name and locator but no public URL. No URL was guessed.",
+    "metadata_located": "Matching source public metadata located during citation recovery; does not independently revalidate substantive claims or internal quoted passages.",
+    "metadata_located_version_limited": "Matching work or author-hosted text located; exact prior source version remains limited as stated in locator_recovery."
+  },
+  "derivatives": [
+    {
+      "derivative": "IDENTITY.md",
+      "claim_groups": [
+        {
+          "claim_group": "bounded_individual_response_prediction",
+          "derivative_heading": "What current evidence supports / Bounded representation and prediction",
+          "sources": [
+            {
+              "source": "Park et al., arXiv:2411.10109v3",
+              "public_url": "https://arxiv.org/abs/2411.10109v3",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "v3; physical pp. 4-7 and 10-11",
+              "source_type_and_method": "Held-out individual-response prediction study using self-report grounding; 1,052 U.S. participants; interview, survey and economic-game outcomes.",
+              "original_checking": "Reviewer independently checked physical pp. 3-7 during the September 2026 checking window; no raw-data audit or independent empirical replication.",
+              "material_access_limits": "Task-specific metrics only. Rich grounding versus brief persona was not a matched proof of general decision-self superiority. Five economic games showed no significant improvement over the demographic baseline; nonsignificance does not prove equivalence."
+            },
+            {
+              "source": "Park et al., arXiv:2304.03442v2",
+              "public_url": "https://arxiv.org/abs/2304.03442v2",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "v2; sections 4 and 6-7",
+              "source_type_and_method": "Architecture demonstration with 25 synthetic agents over two simulated days and a bounded evaluation involving 100 evaluators.",
+              "original_checking": "Source extraction only during the September 2026 checking window; not independently re-extracted in the challenge stage.",
+              "material_access_limits": "Shared architecture history and a basic-competency human baseline limit the comparison. Related research lineage is not independent confirmation of the response-prediction study."
+            }
+          ]
+        },
+        {
+          "claim_group": "reported_reconstruction_and_relationship_experiences",
+          "derivative_heading": "What current evidence supports / Reported experiences of reconstruction and relationship",
+          "sources": [
+            {
+              "source": "Remember You, arXiv:2603.01017v1",
+              "public_url": "https://arxiv.org/abs/2603.01017v1",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "v1; sections 3-5 and Table 1",
+              "source_type_and_method": "Qualitative study of 26 purposively recruited Chinese users with at least one month of use; 40-60 minute interviews; relationships included celebrity cases.",
+              "original_checking": "Targeted methods check during the September 2026 checking window.",
+              "material_access_limits": "Supports the existence of reported support, boundary and reconstruction practices in the sample. Does not establish clinical causation, population prevalence, accurate deceased-person reconstruction or personal continuity."
+            },
+            {
+              "source": "A Conversation about Loss, DOI 10.1145/3544548.3581154",
+              "public_url": "https://doi.org/10.1145/3544548.3581154",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "Institutional PDF, pp. 3-5 and 13",
+              "source_type_and_method": "Qualitative study of ten mourners using chatbots in varied roles.",
+              "original_checking": "Discoverer extraction during the September 2026 checking window; no independent re-extraction recorded.",
+              "material_access_limits": "The ten cases were not ten deceased-person replicas. Distinct sample from Remember You but in a related qualitative evidence family."
+            }
+          ]
+        },
+        {
+          "claim_group": "persona_and_safety_drift",
+          "derivative_heading": "What current evidence supports / Fidelity can drift, and some drift can be reduced",
+          "sources": [
+            {
+              "source": "arXiv:2402.14846v4 and associated PLOS publication",
+              "public_url": "https://arxiv.org/abs/2402.14846v4",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "v4; sections 3-4",
+              "source_type_and_method": "Simulated-persona value-expression tests across model, context and conversation conditions.",
+              "original_checking": "Targeted independent source check during the September 2026 checking window.",
+              "material_access_limits": "Historical model sets and tested settings. Not a direct comparison with the represented people's actual commitments and not a long-horizon identity test."
+            },
+            {
+              "source": "arXiv:2601.10387v1",
+              "public_url": "https://arxiv.org/abs/2601.10387v1",
+              "url_status": "identifier_resolver",
+              "version_and_locator": "v1; sections 2, 5-6 and Figure 10",
+              "source_type_and_method": "Laboratory activation interventions testing selected persona or safety drift.",
+              "original_checking": "Targeted independent source check during the September 2026 checking window.",
+              "material_access_limits": "No independent reproduction. Reduced tested drift does not demonstrate preservation of a particular person's governing values."
+            }
+          ]
+        },
+        {
+          "claim_group": "technical_provenance_and_delegation_semantics",
+          "derivative_heading": "What current evidence supports / Standards can support provenance and delegation, within their semantics",
+          "sources": [
+            {
+              "source": "W3C Verifiable Credentials Data Model 2.0",
+              "public_url": "https://www.w3.org/TR/vc-data-model-2.0/",
+              "url_status": "canonical_endpoint_unverified",
+              "version_and_locator": "Frozen VC 2.0 source; exact subsection locator not exposed in the assembled packet",
+              "source_type_and_method": "Technical standard semantics, checked as a primary specification.",
+              "original_checking": "Targeted independent source check during the September 2026 checking window.",
+              "material_access_limits": "Verification supports authentic and current issuer statements under specified semantics. It does not prove statement truth, issuer competence, legitimate authority or personal continuity."
+            },
+            {
+              "source": "W3C PROV-DM",
+              "public_url": "https://www.w3.org/TR/prov-dm/",
+              "url_status": "canonical_endpoint_unverified",
+              "version_and_locator": "Section 2.1.2",
+              "source_type_and_method": "Technical provenance data-model semantics.",
+              "original_checking": "Targeted independent source check during the September 2026 checking window.",
+              "material_access_limits": "Can represent derivation. A generation or usage graph does not by itself establish that the represented history is true."
+            },
+            {
+              "source": "RFC 8693",
+              "public_url": "https://www.rfc-editor.org/rfc/rfc8693",
+              "url_status": "canonical_endpoint_unverified",
+              "version_and_locator": "Sections 1, 2.1 and 4.1",
+              "source_type_and_method": "Internet standard for OAuth 2.0 token exchange semantics.",
+              "original_checking": "Targeted independent source check during the September 2026 checking window.",
+              "material_access_limits": "Distinguishes actor and subject or history under the protocol. Does not generically propagate revocation or supply lawful authority, personhood or continuity."
+            }
+          ]
+        },
+        {
+          "claim_group": "institutional_authority_routes",
+          "derivative_heading": "What current evidence supports / Standards can support provenance and delegation, within their semantics",
+          "sources": [
+            {
+              "source": "UNIDROIT Principles of International Commercial Contracts",
+              "public_url": "https://www.unidroit.org/instruments/commercial-contracts/unidroit-principles-2016/",
+              "url_status": "canonical_endpoint_unverified",
+              "version_and_locator": "Articles 2.2.1-2.2.10",
+              "source_type_and_method": "Primary institutional text concerning express and implied agency, apparent authority, ratification and termination effects.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "Source-specific institutional route, not universal law or a finding of personal endorsement. Jurisdiction-specific enforceability was not assessed."
+            },
+            {
+              "source": "EU General Data Protection Regulation",
+              "public_url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+              "url_status": "canonical_endpoint_unverified",
+              "version_and_locator": "Article 6(1), Article 7 and recital 27",
+              "source_type_and_method": "Primary legal text; source-specific lawful-basis distinctions.",
+              "original_checking": "Article 6(1) passage independently checked during the September 2026 checking window.",
+              "material_access_limits": "The existence of qualified grounds other than consent does not identify a lawful basis for an actual use or authorize representation. No complete currency or application audit."
+            },
+            {
+              "source": "California digital-asset access rules",
+              "public_url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?article=&chapter=&division=2.&lawCode=PROB&part=20.&title=",
+              "url_status": "metadata_located",
+              "version_and_locator": "Sections 873-876 and 880; exact code title and public URL not exposed in the assembled packet",
+              "source_type_and_method": "Primary statutory example of bounded disclosure, priority and fiduciary powers.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "Does not decide AI-simulation permission or general successor authority. Jurisdiction-specific enforceability was not assessed.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "Official California Legislative Information text for California Probate Code, Division 2, Part 20, Revised Uniform Fiduciary Access to Digital Assets Act, sections 870-884. The page includes the cited sections 873-876 and 880.",
+                "version_limit": "Matching current official statutory text. The page reports Part 20 as added by Stats. 2016, Ch. 551, Sec. 1; it also includes later amendments within the Part, including changes effective January 1, 2025.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged. Current official text is supplied for navigation; exact historical-text parity with the original assessment was not checked."
+              }
+            }
+          ]
+        },
+        {
+          "claim_group": "psychological_memory_and_reductionist_routes",
+          "derivative_heading": "Serious philosophical routes and rivals",
+          "sources": [
+            {
+              "source": "Locke, cited source",
+              "public_url": null,
+              "url_status": "not_exposed",
+              "version_and_locator": "Sections 7-10, 15, 20-23 and 26; exact edition title and public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument extraction.",
+              "original_checking": "Discoverer-attributed extraction during the September 2026 checking window.",
+              "material_access_limits": "No claim that a strict memory relation exhausts all persistence accounts.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "status": "unavailable_edition_ambiguous",
+                "version_limit": "Uncertain. The packet does not specify an edition or modernization, and the chapter entered the Essay in the second edition. Assigning the available modernized PDF would infer an edition not supplied by the packet."
+              }
+            },
+            {
+              "source": "Reid, modernized Essay III source",
+              "public_url": "https://www.earlymoderntexts.com/assets/pdfs/reid1785essay3.pdf",
+              "url_status": "metadata_located",
+              "version_and_locator": "Essay III, chapters 4 and 6; public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument extraction concerning direct memory and transitivity.",
+              "original_checking": "Discoverer-attributed extraction during the September 2026 checking window.",
+              "material_access_limits": "The transitivity objection does not defeat every psychological account.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "Jonathan Bennett's modernized text of Thomas Reid's Essay III, Memory, from Essays on the Intellectual Powers of Man. Its contents identify chapter 4, Identity, and chapter 6, Locke's account of our personal identity.",
+                "version_limit": "Matches the packet's explicit modernized Essay III binding. The PDF reports first launch in April 2006, last amendment in May 2008, and Bennett copyright 2017.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            },
+            {
+              "source": "Parfit 1971",
+              "public_url": "https://doi.org/10.2307/2184309",
+              "url_status": "metadata_located",
+              "version_and_locator": "Sections II-IV, pp. 14-16; exact public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument concerning quasi-memory, branching and reductionist survival.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "Accurate source learning alone does not establish quasi-memory's causal relation. What matters in survival and first-person anticipation remain philosophical questions.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "Derek Parfit, Personal Identity, The Philosophical Review 80(1), January 1971, pp. 3-27, published by Duke University Press on behalf of The Philosophical Review; DOI 10.2307/2184309.",
+                "version_limit": "Exact article identity and publication page span match. The public bibliographic record does not independently display the packet's internal sections II-IV or the text on pp. 14-16.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            }
+          ]
+        },
+        {
+          "claim_group": "functional_organism_neural_narrative_and_first_person_rivals",
+          "derivative_heading": "Serious philosophical routes and rivals",
+          "sources": [
+            {
+              "source": "Chalmers, organizational-invariance source and cited Singularity source",
+              "public_url": "https://consc.net/papers/singularityjcs.pdf",
+              "url_status": "metadata_located_version_limited",
+              "version_and_locator": "Singularity source sections 8-10; exact locator for organizational-invariance source and public URLs not exposed",
+              "source_type_and_method": "Primary philosophical arguments, including a record-reconstruction route using writings and testimony.",
+              "original_checking": "Reconstructive passages independently checked during the September 2026 checking window.",
+              "material_access_limits": "No engineered realization or selected metaphysics. Ordinary persona output is much weaker than the hypothetical fine-grained reconstruction.",
+              "additional_public_urls": [
+                "https://consc.net/papers/qualia.html"
+              ],
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": [
+                  "Chalmers's author-hosted Absent Qualia, Fading Qualia, Dancing Qualia, whose first section is The principle of organizational invariance and whose page reports publication in Conscious Experience, edited by Thomas Metzinger, Imprint Academic, 1995.",
+                  "Chalmers's author-hosted publication PDF, The Singularity: A Philosophical Analysis."
+                ],
+                "version_limit": "The Singularity source matches the packet's named source and sections 8-10. The organizational-invariance work is a direct author-site match to the packet's argument label, but the packet did not expose a title, year or internal locator, so its exact version remains limited rather than asserted.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            },
+            {
+              "source": "Olson, cited animalism source",
+              "public_url": null,
+              "url_status": "not_exposed",
+              "version_and_locator": "Sections 3-4; exact title, edition and public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument for organism persistence.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "No present-day clinical claim and no universal current-mentality requirement.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "status": "unavailable_edition_ambiguous",
+                "version_limit": "Uncertain. The official Oxford page reports a 30 September 1999 publication date, while bibliographic records commonly distinguish an earlier publication history. The packet supplies neither title nor year, so the candidate is not adopted."
+              }
+            },
+            {
+              "source": "McMahan 1995",
+              "public_url": "https://doi.org/10.1111/j.1467-8519.1995.tb00305.x",
+              "url_status": "metadata_located",
+              "version_and_locator": "pp. 102-113; exact title and public URL not exposed",
+              "source_type_and_method": "Primary philosophical account emphasizing retained neural capacity or embodied mind.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "Historical philosophical account, not current medicine.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "Jeff McMahan, The Metaphysics of Brain Death, Bioethics 9(2), April 1995, pp. 91-126; DOI 10.1111/j.1467-8519.1995.tb00305.x.",
+                "version_limit": "Exact author, year and article page span match; the packet's pp. 102-113 fall within the publisher-recorded article span.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            },
+            {
+              "source": "Schechtman, cited person-life source",
+              "public_url": "https://doi.org/10.1093/acprof:oso/9780199684878.003.0001",
+              "url_status": "metadata_located",
+              "version_and_locator": "Introduction pp. 6-9; exact title, edition and public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument concerning narrative or person-life persistence.",
+              "original_checking": "Partial access during the September 2026 checking window.",
+              "material_access_limits": "Full later defense was not accessed. No comprehensive verdict against person-life accounts.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "The Introduction to Marya Schechtman's Staying Alive: Personal Identity, Practical Concerns, and the Unity of a Life, Oxford University Press, published 13 March 2014. Oxford Academic records the Introduction as pp. 1-9 and describes the Person Life View.",
+                "version_limit": "Exact author, person-life work binding, Introduction, and cited pp. 6-9 match the official Oxford chapter record.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            },
+            {
+              "source": "Baker, cited first-person perspective source",
+              "public_url": "https://people.umass.edu/lrb/files/bak14selfnar.pdf",
+              "url_status": "metadata_located_version_limited",
+              "version_and_locator": "pp. 10-14; exact title, edition and public URL not exposed",
+              "source_type_and_method": "Primary philosophical argument concerning first-person perspective and nonorganic embodiment.",
+              "original_checking": "Independently checked during the September 2026 checking window.",
+              "material_access_limits": "Does not exhaust first-person or substance-dualist alternatives and supplies no informative nonpersonal transfer test.",
+              "locator_recovery": {
+                "checked_date": "2026-09-17",
+                "identifies": "An author-hosted University of Massachusetts manuscript of Lynne Rudder Baker's Making Sense of Ourselves: Self-Narratives and Personal Identity. The manuscript pagination includes pp. 10-14 and the packet-bound first-person-perspective and nonorganic-body discussion.",
+                "version_limit": "The author-hosted manuscript matches the packet's internal pages and argument labels. Its relationship to the final journal pagination is not established as identical; Baker's official publications page lists the published article in Phenomenology and the Cognitive Sciences 15 (2016), pp. 7-15.",
+                "comparison_scope": "Bibliographic navigation only. Original substantive checking and material access limits remain unchanged."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "derivative": "ALIGNMENT.md",
+      "claim_groups": [
+        {
+          "claim_group": "capabilities_and_effective_optionality",
+          "derivative_heading": "What the evidence can support / Capabilities and usable options; The strongest rival frameworks and counterevidence / Capabilities and pluralism",
+          "sources": [
+            {
+              "source": "Sen, 1979 Tanner lecture",
+              "public_url": "https://tannerlectures.org/wp-content/uploads/2024/07/sen80.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Printed pp. 217-220, especially pp. 218-220",
+              "source_type_and_method": "Primary conceptual and normative argument comparing resources, utility and capabilities.",
+              "original_checking": "Reviewer independently checked pp. 218-220 during the September 2026 checking window.",
+              "material_access_limits": "Not a measurement of a universal option set. Capability indexing remains difficult and the account is partial."
+            },
+            {
+              "source": "Berlin, Two Concepts of Liberty, draft E",
+              "public_url": "https://berlin.wolf.ox.ac.uk/published_works/tcl/tcl-e.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "1958 draft E, pp. 50-53",
+              "source_type_and_method": "Primary philosophical argument concerning plural values and real loss.",
+              "original_checking": "Lane-only targeted check during the September 2026 checking window.",
+              "material_access_limits": "Draft rather than final edition; overlapping liberal debate, not an independent moral confirmation."
+            }
+          ]
+        },
+        {
+          "claim_group": "local_governance_and_distribution_mechanisms",
+          "derivative_heading": "What the evidence can support / Local institutional mechanisms",
+          "sources": [
+            {
+              "source": "Olken, JPE 2007",
+              "public_url": "https://www.povertyactionlab.org/sites/default/files/research-paper/27_Olken_Monitoring_Corruption.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "pp. 218-219, Table 4 and footnote 19",
+              "source_type_and_method": "Randomized field experiment across 608 Indonesian villages; audits randomized by subdistrict and participation by village.",
+              "original_checking": "Reviewer targeted source check plus independent numerical recheck during the September 2026 checking window.",
+              "material_access_limits": "Missing-expenditure log proxy is not adjudicated theft. Estimates vary by specification; substitution and dropped strata matter. No dataset reproduction or integrated anti-capture test."
+            },
+            {
+              "source": "Casey et al., Economic Journal 2023",
+              "public_url": "https://emiguel.econ.berkeley.edu/wordpress/wp-content/uploads/2023/09/uead001.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Table 1 and section 2.2",
+              "source_type_and_method": "Long-run follow-up of 236 randomized Sierra Leonean villages; same cohort with later grants or support and changed measurement.",
+              "original_checking": "Reviewer checked key passages and a lane independently checked stated numerical differences during the September 2026 checking window.",
+              "material_access_limits": "Cause of the .059/63 versus .066/61 discrepancy is unknown. Non-detection is not zero effect; working-paper and journal versions are not identical evidence."
+            },
+            {
+              "source": "Egger et al., Econometrica 2022",
+              "public_url": "https://emiguel.econ.berkeley.edu/wordpress/wp-content/uploads/2019/11/ecta200500.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Sections 3 and 6 and conclusion",
+              "source_type_and_method": "Randomized, externally financed local cash-transfer shock involving more than 10,500 poor households in 653 Kenyan villages, with spatial modeling.",
+              "original_checking": "Reviewer checked reporting and funding elements during the September 2026 checking window; no full spatial-identification reproduction.",
+              "material_access_limits": "Not a national tax-funded provision model. Early flows, opportunity costs, modeling assumptions and a disclosed organizational tie limit transfer."
+            },
+            {
+              "source": "Ferraz and Finan, February 2010 manuscript",
+              "public_url": "https://eml.berkeley.edu/~ffinan/Finan_Termlimits.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "pp. 13-18 and tables",
+              "source_type_and_method": "Observational comparison involving 476 Brazilian municipalities; 270 first-term and 206 second-term mayors.",
+              "original_checking": "Reviewer targeted extraction plus independent numerical recheck during the September 2026 checking window.",
+              "material_access_limits": "Random audit selection is not randomized tenure. Close-election and experience checks do not make longevity an intervention or establish optimal terms."
+            }
+          ]
+        },
+        {
+          "claim_group": "technology_productivity_displacement_and_innovation",
+          "derivative_heading": "What the evidence can support / Technology, productivity and distribution",
+          "sources": [
+            {
+              "source": "Generative AI at Work, arXiv:2304.11771v2",
+              "public_url": "https://arxiv.org/html/2304.11771v2",
+              "url_status": "packet_exact",
+              "version_and_locator": "v2, 6 November 2024, Table 2",
+              "source_type_and_method": "Staggered-adoption difference-in-differences study of 5,172 support agents at one firm.",
+              "original_checking": "Detailed source checking remained lane-only during the September 2026 window.",
+              "material_access_limits": "Single firm with selection and parallel-trends limits; heterogeneous effects and no universal productivity rate."
+            },
+            {
+              "source": "METR, arXiv:2507.09089v1",
+              "public_url": "https://arxiv.org/html/2507.09089v1",
+              "url_status": "packet_exact",
+              "version_and_locator": "v1",
+              "source_type_and_method": "Task-randomized study of 16 selected developers and 246 tasks in an early-2025 setting.",
+              "original_checking": "Detailed source checking remained lane-only during the September 2026 window.",
+              "material_access_limits": "Selected developers and tasks; not transferable as a universal AI effect."
+            },
+            {
+              "source": "METR uplift update, 24 February 2026",
+              "public_url": "https://metr.org/blog/2026-02-24-uplift-update/",
+              "url_status": "packet_exact",
+              "version_and_locator": "24 February 2026 update",
+              "source_type_and_method": "Updated study involving 57 developers and more than 800 tasks, including 10 returning participants.",
+              "original_checking": "Reviewer checked the update during the September 2026 checking window.",
+              "material_access_limits": "Authors deemed reported point estimates unreliable because of changed pay, selection, completion and timing problems."
+            },
+            {
+              "source": "Acemoglu and Restrepo, JPE 2020",
+              "public_url": "https://economics.mit.edu/sites/default/files/publications/Robots%20and%20Jobs%20-%20Evidence%20from%20US%20Labor%20Markets.p.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Proof version; local-exposure results and Table 7",
+              "source_type_and_method": "Observational and instrumental-variable analysis of 722 U.S. commuting zones, principally 1990-2007.",
+              "original_checking": "Lane-targeted source check during the September 2026 checking window.",
+              "material_access_limits": "Instrument and model-adjustment assumptions; industrial robots rather than LLMs; local labor exposure rather than aggregate welfare."
+            },
+            {
+              "source": "Aghion et al., NBER Working Paper 9269",
+              "public_url": "https://www.nber.org/system/files/working_papers/w9269/w9269.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "October 2002; sections 5.5, 6.2-6.3 and Table 4a",
+              "source_type_and_method": "Mechanism model and empirical association across 330 firms, about 4,500 observations, 17 industries and 1971-1994.",
+              "original_checking": "Reviewer checked the reported inverted-U formulation during the September 2026 checking window; full methods and final 2005 comparison not independently checked.",
+              "material_access_limits": "Patent proxy, selected firms and instrument assumptions. No whole-regime causal comparison."
+            }
+          ]
+        },
+        {
+          "claim_group": "institutional_precedents_and_nondomination",
+          "derivative_heading": "What the evidence can support / Institutional precedents; The strongest rival frameworks and counterevidence / Nondomination, constitutionalism and commons governance; Legitimate coordination under disagreement",
+          "sources": [
+            {
+              "source": "Ostrom, AER 2010",
+              "public_url": "https://web.pdx.edu/~nwallace/EHP/OstromPolyGov.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "pp. 643-647, 653 and 663-664",
+              "source_type_and_method": "Institutional synthesis concerning polycentric governance and nested rule authority.",
+              "original_checking": "Lane-targeted reading during the September 2026 checking window; not independently audited by the reviewer.",
+              "material_access_limits": "Synthesis rather than a civilization-scale trial; no efficacy guarantee."
+            },
+            {
+              "source": "Vienna Convention on the Law of Treaties 1969",
+              "public_url": "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Articles 31-32 and 39-41",
+              "source_type_and_method": "Primary institutional text separating interpretation, amendment and related authority questions.",
+              "original_checking": "Reviewer checked interpretation and third-state passages during the September 2026 window, not the separate amendment passages.",
+              "material_access_limits": "Jurisdiction-specific precedent, not proof of actual successor control or a universal governance rule."
+            },
+            {
+              "source": "German Basic Law, English translation",
+              "public_url": "https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html",
+              "url_status": "packet_exact",
+              "version_and_locator": "Translation incorporating amendment of 22 March 2025; Articles 79, 80 and 146",
+              "source_type_and_method": "Primary constitutional text distinguishing entrenched limits, delegated authority and constitutional replacement.",
+              "original_checking": "Reviewer checked Articles 79, 80 and 146 during the September 2026 checking window.",
+              "material_access_limits": "Does not prove actual successor authority, supply a universal rights list or settle constituent power."
+            },
+            {
+              "source": "European Convention on Human Rights",
+              "public_url": "https://www.echr.coe.int/documents/d/echr/convention_eng",
+              "url_status": "packet_exact",
+              "version_and_locator": "Consolidated text inspected 13 September 2026; Articles 13-18, 34-35 and 46",
+              "source_type_and_method": "Primary institutional text concerning remedies, derogation limits and review.",
+              "original_checking": "Lane-targeted checks during the September 2026 window.",
+              "material_access_limits": "Exact edition date was unknown in the inspected sections. No universal legal advice or validated safeguard package."
+            },
+            {
+              "source": "Aarhus Convention 1998",
+              "public_url": "https://treaties.un.org/doc/Publication/UNTS/Volume%202161/v2161.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "UN Treaty Series text; Articles 6 and 9",
+              "source_type_and_method": "Primary treaty text concerning early participation and review.",
+              "original_checking": "Lane-targeted check during the September 2026 window.",
+              "material_access_limits": "Original treaty only; implementation and current coverage not assessed."
+            },
+            {
+              "source": "International Covenant on Civil and Political Rights",
+              "public_url": "https://2covenants.ohchr.org/About-ICCPR.html",
+              "url_status": "packet_exact",
+              "version_and_locator": "Articles 25-27",
+              "source_type_and_method": "Primary institutional text concerning participation and minority standing.",
+              "original_checking": "Lane-targeted check during the September 2026 window.",
+              "material_access_limits": "Human legal categories do not settle all possible future or digital patient standing."
+            },
+            {
+              "source": "Madison, Federalist No. 51",
+              "public_url": "https://founders.archives.gov/documents/Madison/01-10-02-0279",
+              "url_status": "packet_exact",
+              "version_and_locator": "6 February 1788",
+              "source_type_and_method": "Primary institutional argument concerning controls on governors.",
+              "original_checking": "Lane-targeted reading during the September 2026 window; not independently audited by the reviewer.",
+              "material_access_limits": "Historical human motivations and design argument, not an efficacy guarantee or direct AI transfer."
+            },
+            {
+              "source": "Pettit 2006 reply",
+              "public_url": "https://ppettit.scholar.princeton.edu/document/1676",
+              "url_status": "packet_exact",
+              "version_and_locator": "Sections II-III, pp. 278-283",
+              "source_type_and_method": "Philosophical argument concerning controlled interference and nondomination.",
+              "original_checking": "Lane-targeted reading during the September 2026 window.",
+              "material_access_limits": "The original McMahon source was not acquired; Pettit's reply is not an independent reconstruction of both sides."
+            }
+          ]
+        },
+        {
+          "claim_group": "renewal_stability_and_successor_purpose",
+          "derivative_heading": "The retained architecture / Adaptive Federation; Legitimate coordination under disagreement",
+          "sources": [
+            {
+              "source": "Jefferson to Madison, 6 September 1789",
+              "public_url": "https://founders.archives.gov/documents/Jefferson/01-15-02-0375-0003",
+              "url_status": "packet_exact",
+              "version_and_locator": "Constitutional and debt paragraphs; archival received and revised versions",
+              "source_type_and_method": "Primary historical argument for generational renewal.",
+              "original_checking": "Lane inspected archival versions during the September 2026 window.",
+              "material_access_limits": "Paired historical exchange, not independent evidence, modern legal opinion or support for a universal nineteen-year rule."
+            },
+            {
+              "source": "Madison to Jefferson, 4 February 1790",
+              "public_url": "https://founders.archives.gov/documents/Jefferson/01-16-02-0082",
+              "url_status": "packet_exact",
+              "version_and_locator": "Stability and inherited-benefit paragraphs",
+              "source_type_and_method": "Primary historical argument for stability and legitimate reliance.",
+              "original_checking": "Lane inspected the archival reply during the September 2026 window.",
+              "material_access_limits": "Paired exchange, not a settled successor-authority rule or modern legal opinion."
+            }
+          ]
+        },
+        {
+          "claim_group": "normative_burden_and_rights_rivals",
+          "derivative_heading": "The strongest rival frameworks and counterevidence / Welfare and stakes-sensitive consequentialism; Rights, autonomy and contractualism; Liberal neutrality, democracy and public justification",
+          "sources": [
+            {
+              "source": "Greaves and MacAskill, The Case for Strong Longtermism, GPI Working Paper 5-2021",
+              "public_url": "https://www.globalprioritiesinstitute.org/wp-content/uploads/The-Case-for-Strong-Longtermism-GPI-Working-Paper-June-2021-2-2.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Sections 2 and 7-10, especially deontic premises and weak points",
+              "source_type_and_method": "Primary normative argument for future stakes with explicit premise and objection analysis.",
+              "original_checking": "Reviewer checked the longtermist bridge and weak points during the September 2026 window.",
+              "material_access_limits": "No population axiology, discount rate, forecast or institutional mandate adopted."
+            },
+            {
+              "source": "Singer, 1972 teaching excerpt",
+              "public_url": "https://kwanj.wordpress.com/wp-content/uploads/2016/08/singer-famine-affluence-and-morality.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "PDF pp. 2-6",
+              "source_type_and_method": "Primary normative argument concerning preventable grave suffering and sacrifice.",
+              "original_checking": "Targeted lane reading during the September 2026 window.",
+              "material_access_limits": "Full article not acquired; historical aid claims were not adopted."
+            },
+            {
+              "source": "Scanlon, 1982 reprint",
+              "public_url": "https://sites.pitt.edu/~mthompso/readings/scanlon_contractualism.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "Printed pp. 110-111, 116-121 and 124-128",
+              "source_type_and_method": "Primary contractualist argument concerning reasonable non-rejection.",
+              "original_checking": "Targeted visual reading of PDF pages 1, 3-5, 8-10 and 12-14 during the September 2026 window.",
+              "material_access_limits": "Other pages not fully read; containing anthology unidentified; reasonable non-rejection is not actual consent."
+            },
+            {
+              "source": "Rawls, Justice as Fairness, 1985 authorized excerpts",
+              "public_url": "https://www.nlnrac.org/critics/rawls/primary-source-documents/justice-as-fairness.html",
+              "url_status": "packet_exact",
+              "version_and_locator": "Sections I-VII, especially V",
+              "source_type_and_method": "Primary political-philosophy argument concerning public standing and comprehensive goods.",
+              "original_checking": "Reviewer checked the revision and scope passage during the September 2026 window.",
+              "material_access_limits": "Authorized excerpts only, not the full source or a universal legitimacy result."
+            }
+          ]
+        },
+        {
+          "claim_group": "existing_alignment_effective_altruism_and_existential_risk_comparators",
+          "derivative_heading": "The question; The strongest rival frameworks and counterevidence / Effective altruism, longtermism and existential-risk governance; Irreversibility and costly delay",
+          "sources": [
+            {
+              "source": "Gabriel 2020",
+              "public_url": "https://link.springer.com/article/10.1007/s11023-020-09539-2",
+              "url_status": "packet_exact",
+              "version_and_locator": "Abstract, section 1 and alignment distinctions",
+              "source_type_and_method": "Primary conceptual analysis of AI alignment and value or authority questions.",
+              "original_checking": "Reviewer verified the comparator counterexample during the September 2026 window.",
+              "material_access_limits": "Does not establish that all alignment practice fits the account; does refute a categorical safety-only comparator."
+            },
+            {
+              "source": "MacAskill 2019, The Definition of Effective Altruism",
+              "public_url": "https://www.williammacaskill.com/s/The_Definition_of_Effective_Altruism.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "pp. 14-20 and 23",
+              "source_type_and_method": "Primary conceptual chapter defining an effective-altruism formulation.",
+              "original_checking": "Reviewer confirmed source identity and access; substantive reconstruction remained a lane-targeted check during the September 2026 window.",
+              "material_access_limits": "No claim that all effective-altruism practice follows this account."
+            },
+            {
+              "source": "Bostrom 2013",
+              "public_url": "https://existential-risk.com/concept.pdf",
+              "url_status": "packet_exact",
+              "version_and_locator": "pp. 16, 19-20, 24-26 and 29",
+              "source_type_and_method": "Primary conceptual argument concerning dynamic sustainability and differential technological sequencing.",
+              "original_checking": "Lane-targeted argument check during the September 2026 window.",
+              "material_access_limits": "Same-author evidence family as the 2002 source; no speculative prescription, forecast or optimal pace adopted."
+            },
+            {
+              "source": "Bostrom 2002, Existential Risks",
+              "public_url": "https://nickbostrom.com/papers/existential-risks/",
+              "url_status": "packet_exact",
+              "version_and_locator": "Section 9.4",
+              "source_type_and_method": "Primary conceptual argument concerning differential technological development.",
+              "original_checking": "Lane-targeted source use during the September 2026 window.",
+              "material_access_limits": "Separate work from the 2013 source but same author and argument family; no pace or mandate follows."
+            }
+          ]
+        },
+        {
+          "claim_group": "agent_power_tendencies",
+          "derivative_heading": "The strongest rival frameworks and counterevidence / Agent-politics objections",
+          "sources": [
+            {
+              "source": "Turner et al., arXiv:1912.01683v10",
+              "public_url": "https://arxiv.org/html/1912.01683v10",
+              "url_status": "packet_exact",
+              "version_and_locator": "v10, 28 January 2023, sections 1, 3, 6 and 7",
+              "source_type_and_method": "Formal Markov decision process result concerning optimal-policy power tendencies.",
+              "original_checking": "Reviewer checked applicability caveats during the September 2026 window, not proof reproduction.",
+              "material_access_limits": "No deployed-agent sample. The source warns against direct transfer to learned policies or superintelligence and does not establish every agent's motives, patienthood or mandate."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "global_material_limits": [
+    "The identity evidence was targeted English-language acquisition, including an English report of a Chinese user sample; it was not systematic, multilingual or exhaustive.",
+    "The alignment evidence was targeted and materially concentrated in liberal and Western traditions; it was not a complete ethics, governance, current-law or current-literature audit.",
+    "Targeted primary-passage checks are not raw-data, theorem, legal-application or empirical replication.",
+    "Different populations, periods, interventions, model versions and outcomes are not interchangeable replications.",
+    "No source establishes first-person continuity, an integrated civilizational institution, a universal moral doctrine, a general sustainable optimum or the full market-to-altruism chain."
+  ]
+}

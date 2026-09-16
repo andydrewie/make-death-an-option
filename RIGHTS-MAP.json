@@ -1,0 +1,133 @@
+{
+  "scope": "Only listed files and specified material; no repository-wide license",
+  "rights_holder": "Andrew Fai (@andydrewie), to the extent rights held",
+  "notice": "RIGHTS.md",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "ARTICLE.md",
+      "license": "CC-BY-ND-4.0",
+      "scope": "Exact designated work; supplied attribution and standard-license conditions."
+    },
+    {
+      "path": "ATLAS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "CASES.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "CONTINUITY-BANK.md",
+      "license": "CC-BY-ND-4.0",
+      "scope": "Exact designated work; supplied attribution and standard-license conditions."
+    },
+    {
+      "path": "CONTINUITY-NETWORKS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "DEVELOPMENT.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original narration and rights held in four explicitly attributed selected passages; no blanket raw-conversation license."
+    },
+    {
+      "path": "FRONTIERS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "OBJECTIONS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "PUBLICATION.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "QUESTIONS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "README.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "RESEARCH.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "RIGHTS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "SOURCES.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "assets/mdao-cover.png",
+      "license": "LicenseRef-MDAO-Cover-Permission",
+      "scope": "Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
+    },
+    {
+      "path": "research/ALIGNMENT.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "research/BIOLOGY.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "research/IDENTITY.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "research/MEMORY.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "research/source-index-identity-alignment.json",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "research/source-index-memory-biology.json",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "RIGHTS-MAP.json",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original classification and annotations; not a modification of the underlying licenses."
+    }
+  ],
+  "exclusions": [
+    "third-party works and marks",
+    "confidential/private sources",
+    "unreleased software",
+    "materials outside this list"
+  ]
+}

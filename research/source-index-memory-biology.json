@@ -1,0 +1,427 @@
+{
+  "schema_version": "1.0",
+  "status": "PUBLIC-CANDIDATE SOURCE NAVIGATION",
+  "evidence_cutoff": "2026-09-13",
+  "original_check_date": "2026-09-13",
+  "scope_note": "One entry may bind a paragraph containing several statistics from the same study. This index supplies source navigation and access limits; it does not add scientific claims or certify the underlying publications.",
+  "documents": [
+    {
+      "file": "MEMORY.md",
+      "claims": [
+        {
+          "id": "memory-finley-brewer-2024",
+          "heading": "What the evidence supports / Photographs can cue additional reported autobiographical recall",
+          "claim": "Personal-photo review in nine selected undergraduates elicited additional reported recall, with self-scored outcome and confidence qualifications.",
+          "public_source": "https://doi.org/10.1080/09658211.2024.2377193",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Selected primary scoring and outcome sections were checked; full exclusions, supplements, and recomputation were not checked. Same research family does not constitute replication."
+        },
+        {
+          "id": "memory-finley-2011",
+          "heading": "What the evidence supports / Photographs can cue additional reported autobiographical recall",
+          "claim": "An earlier 12-participant review study reported recognition-rating and response-length differences, with response length rather than independently verified correctness as its principal recall measure.",
+          "public_source": "https://doi.org/10.1080/09658211.2010.532807",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "One review had full-text extraction and another only search excerpts; no later independent scientific source recheck was performed. The 2026-09-17 follow-up verified bibliographic identity and DOI only."
+        },
+        {
+          "id": "memory-sellen-2007",
+          "heading": "What the evidence supports / Photographs can cue additional reported autobiographical recall",
+          "claim": "Personal images elicited additional remembered events and supported timestamp-checkable ordering in young adults, with outcome-specific denominators.",
+          "public_source": "https://doi.org/10.1145/1240624.1240636",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Full-text extraction was available to one review route only. Free-recalled event content could not be independently verified, and no later independent primary scoring check was performed."
+        },
+        {
+          "id": "memory-khachatoorian-2021",
+          "heading": "What the evidence supports / Some procedures improve narrow, checkable outcomes",
+          "claim": "An accumulated photo sequence improved visited-versus-unvisited discrimination after a guided walking tour in a small all-female sample.",
+          "public_source": "https://doi.org/10.1080/09658211.2021.1880601",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Targeted full-text extraction was available, but the primary scoring method was not independently rechecked. This was a narrow occurrence-discrimination task, not ordinary autobiographical free recall."
+        },
+        {
+          "id": "memory-koutstaal-1998",
+          "heading": "What the evidence supports / Some procedures improve narrow, checkable outcomes",
+          "claim": "Photo review after staged witnessed videos supported selected correct-detail outcomes in younger and older adults.",
+          "public_source": "https://doi.org/10.1037/0882-7974.13.2.277",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The review targeted Experiment 1 rather than the complete publication, and the primary scoring was not independently rechecked. Staged-event evidence does not directly transport to ordinary lived autobiography."
+        },
+        {
+          "id": "memory-body-camera-vr",
+          "heading": "What the evidence supports / Some procedures improve narrow, checkable outcomes",
+          "claim": "A randomized body-camera review procedure after a simulated theft improved final statement reporting in a mixed-age sample.",
+          "public_source": "https://doi.org/10.1371/journal.pone.0243226",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Participants were aged 17-42; no adult-only subgroup was available. The exact accuracy denominator was unknown, only 10 statements were second-coded, and the setting was virtual reality."
+        },
+        {
+          "id": "memory-museum-reactivation",
+          "heading": "Strongest contrary and complicating evidence",
+          "claim": "Reactivation combined with related lure exposure increased both target hits and false alarms in younger and older museum-task groups.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4339638/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The primary table was checked, but the strict minimum participant age was unverified and no signal-detection or mechanism reanalysis was performed. The procedure differs from unsuggested personal-photo review."
+        },
+        {
+          "id": "memory-class-photo-suggestion",
+          "heading": "Strongest contrary and complicating evidence",
+          "claim": "A genuine class photograph paired with a false childhood narrative and encouraged imagery produced false childhood-event reports.",
+          "public_source": "https://doi.org/10.1111/j.0956-7976.2004.01503002.x",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Participant minimum age was unconfirmed in the original scientific review and the reviewed version was an uncorrected proof. The 2026-09-17 follow-up verified bibliographic identity and DOI only."
+        },
+        {
+          "id": "memory-altered-action-video",
+          "heading": "Strongest contrary and complicating evidence",
+          "claim": "An altered action video increased belief and memory ratings for staged recent actions in 60 participants aged 18-41.",
+          "public_source": "https://doi.org/10.1016/j.concog.2009.04.011",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Only primary snippets were available to the original scientific review; the full manuscript was unavailable. The 2026-09-17 follow-up verified the distinct Nash, Wade, and Brewer (2009) bibliographic identity and DOI only."
+        },
+        {
+          "id": "memory-flashbulb",
+          "heading": "Strongest contrary and complicating evidence",
+          "claim": "Flashbulb-memory belief and vividness remained high while narrative consistency declined.",
+          "public_source": "https://doi.org/10.1111/1467-9280.02453",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "One subgroup had a mean age of 17.78, so the sample was not cleanly adult-only. Narrative consistency was not independently verified factual accuracy, and no later independent source recheck was performed."
+        },
+        {
+          "id": "memory-reminder-updating-families",
+          "heading": "Strongest contrary and complicating evidence",
+          "claim": "Reminder-associated updating was positive in one list-learning family and null or nonmatching in other sequence-task families.",
+          "public_source": "https://doi.org/10.1101/lm.365707",
+          "additional_public_sources": [
+            "https://doi.org/10.1073/pnas.1601440113"
+          ],
+          "source_status": "available; locators verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Original scientific access was partial or abstract-only, and adult minima and robustness were incompletely checked. The 2026-09-17 follow-up verified bibliographic identities and DOIs for the positive Hupbach list-learning study and the Hardwicke, Taqi, and Shanks direct and conceptual replication report only."
+        },
+        {
+          "id": "memory-election-emotion",
+          "heading": "Confidence and vividness are not accuracy",
+          "claim": "An election-memory study compared later recollection with earlier self-report and factual items in a broad adult sample.",
+          "public_source": "https://doi.org/10.1080/02699931.2021.1910496",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The extraction targeted Study 1. Study 2 and full emotion-versus-fact dissociation statistics were not comprehensively inspected. Earlier self-report is not objective ground truth for the complete original emotional state."
+        }
+      ]
+    },
+    {
+      "file": "BIOLOGY.md",
+      "claims": [
+        {
+          "id": "biology-life",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "The LIFE randomized trial reduced major mobility disability over finite follow-up in sedentary older adults with functional limitations.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4266388/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Selected methods and results were independently matched at the reported-design level. No raw-data reanalysis, survival claim, or broad population transport follows."
+        },
+        {
+          "id": "biology-rehab-hf",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "REHAB-HF supported recovery of measured physical function over three months in older adults hospitalized with heart failure.",
+          "public_source": "https://cci-cic.org/wp-content/uploads/2021/10/REHAB-HF.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The result is rehabilitation in a defined impaired population and does not establish general biological-age reversal."
+        },
+        {
+          "id": "biology-sprint",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "SPRINT reported lower all-cause mortality during finite intervention follow-up in a selected elevated-risk population.",
+          "public_source": "https://doi.org/10.1056/NEJMoa1901281",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Primary access was partial and the safety extraction was incomplete. The endpoint does not uniquely identify general aging-rate modification."
+        },
+        {
+          "id": "biology-da-qing",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "Da Qing reported a finite mortality and survival-area benefit after a lifestyle intervention in adults with impaired glucose tolerance.",
+          "public_source": "https://stacks.cdc.gov/view/cdc/106845/cdc_106845_DS1.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Cluster design, selected population, ongoing care, and adherence limit generalization. The reported life-year estimate must not be recreated from the hazard ratio."
+        },
+        {
+          "id": "biology-select",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "SELECT reduced its prespecified cardiovascular composite in participants with obesity and established cardiovascular disease.",
+          "public_source": "https://discovery.ucl.ac.uk/id/eprint/10184940/1/nejmoa2307563.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Later mortality estimates were not confirmatory after the hierarchy failed at cardiovascular death, and reviewed safety extraction was incomplete."
+        },
+        {
+          "id": "biology-aspree",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "ASPREE found no disability-free-survival benefit and found increased major bleeding with aspirin.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6426126/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The null is specific to the tested protocol, endpoint, population, and uncertainty; it is not universal proof of ineffectiveness."
+        },
+        {
+          "id": "biology-dppos",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "DPPOS detected no mortality benefit over long follow-up for metformin or lifestyle intervention.",
+          "public_source": "https://gwern.net/doc/longevity/metformin/2021-lee-2.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Treatment convergence and low event rates constrain inference; the result is not proof of exact zero effect."
+        },
+        {
+          "id": "biology-rtb101",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "A later RTB101 trial failed its primary clinical endpoint despite a biological interferon-response signal.",
+          "public_source": "https://doi.org/10.1016/S2666-7568(21)00062-3",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The failed primary endpoint constrains this tested protocol and does not establish universal mechanism failure."
+        },
+        {
+          "id": "biology-rapamycin-exercise",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "Rapamycin plus exercise did not add benefit on the primary chair-stand endpoint and raised a possible interaction concern.",
+          "public_source": "https://onlinelibrary.wiley.com/doi/10.1002/jcsm.70274",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The study does not establish universal attenuation or harm."
+        },
+        {
+          "id": "biology-masters",
+          "heading": "Human evidence: finite outcomes in specified populations",
+          "claim": "MASTERS found blunted measured hypertrophic adaptation with metformin during resistance training.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6826125/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Primary access was partial, and consequences for strength or disability were not established."
+        },
+        {
+          "id": "biology-itp-rapamycin",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "A three-site genetically heterogeneous mouse study found finite median and upper-tail survival increases with rapamycin.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4032600/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Selected table extraction was checked against a retained document. Upper-tail quantiles are not biological maxima, and shared sites or controls do not independently replicate every schedule or mechanism."
+        },
+        {
+          "id": "biology-dietary-restriction-mice",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Dietary restriction in diversity-outbred female mice produced a survival signal with lean-mass and immune tradeoffs.",
+          "public_source": "https://doi.org/10.1038/s41586-024-08026-3",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Cage-level statistical questions remained open in the original scientific assessment. The 2026-09-17 follow-up verified bibliographic identity and DOI only."
+        },
+        {
+          "id": "biology-anti-il11-mice",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Late-life anti-IL11 treatment produced mouse survival and functional benefits.",
+          "public_source": "https://doi.org/10.1038/s41586-024-07701-9",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Independent therapeutic lifespan replication and survival denominator details remained limited in the original scientific assessment. The 2026-09-17 follow-up verified bibliographic identity and DOI only."
+        },
+        {
+          "id": "biology-dq-mice",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Late-life dasatinib plus quercetin was reported to increase median remaining life, not total lifespan.",
+          "public_source": "https://doi.org/10.1038/s41591-018-0092-9",
+          "source_status": "available; locator verified 2026-09-17",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Replication and transport remain limited, and the remaining-life metric must not be promoted into whole-life extension. The 2026-09-17 follow-up verified bibliographic identity and DOI only."
+        },
+        {
+          "id": "biology-rhesus-caloric-restriction",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Rhesus-monkey caloric-restriction programs produced discordant survival findings.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5247583/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Feeding, onset age, husbandry, and care are possible explanations rather than a randomized resolution of the discordance."
+        },
+        {
+          "id": "biology-itp-2024",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Specified 2024 Intervention Testing Program schedules produced null findings under their tested conditions.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10828146/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Protocol, dose, onset, exposure, sex, and shared-control limits prevent a universal null inference."
+        },
+        {
+          "id": "biology-itp-2026",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "Specified 2026 Intervention Testing Program protocols produced null findings for several compounds.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13356140/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Changed doses, onset, and achieved exposure limit same-protocol refutation and broader generalization."
+        },
+        {
+          "id": "biology-aav-osk",
+          "heading": "Animal evidence: stronger lifespan demonstrations, unresolved translation",
+          "claim": "A preliminary AAV-OSK report in exceptionally old male mice concerned remaining survival rather than whole lifespan.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10909732/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The lifespan paragraph was checked in retained text, but sample, randomization, control, denominator, precision, and supplementary details remained limited. The result was preliminary and unreplicated."
+        },
+        {
+          "id": "biology-epidermal-regeneration",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Genetically corrected epidermal stem cells regenerated functional epidermis after catastrophic skin loss in one child.",
+          "public_source": "https://doi.org/10.1038/nature24487",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "This is a local regenerative capability in a pediatric monogenic-disease setting, not direct natural-aging reversal or organism-wide repair."
+        },
+        {
+          "id": "biology-limbal-cells",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Limbal stem-cell treatment restored renewing corneal epithelium in selected damaged eyes.",
+          "public_source": "https://doi.org/10.1056/NEJMoa0905955",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Methods access was limited, follow-up varied, and local tissue renewal does not establish systemic rejuvenation."
+        },
+        {
+          "id": "biology-zimislecel",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "An early uncontrolled stem-cell-derived islet study reported one-year endocrine outcomes in 12 full-dose recipients and safety observations in 14 participants.",
+          "public_source": "https://www.surgery.pitt.edu/sites/default/files/Reichman%20VX-880%20NEJM%202025.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The efficacy and safety populations differ. Total enrollment flow, supplement details, and a later revision difference remained unresolved; later deaths do not explain the denominator split or establish product-caused fatalities."
+        },
+        {
+          "id": "biology-lantidra",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Donor-islet treatment allows bounded repeat administration and carries substantial adverse-reaction and immunosuppression burdens.",
+          "public_source": "https://www.fda.gov/media/169920/download",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Finite repeat administration does not establish arbitrary repeat cycles, broad eligibility, or open-ended net safety."
+        },
+        {
+          "id": "biology-kidney-retransplant",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Kidney retransplantation after graft failure demonstrates that component replacement can sometimes be repeated.",
+          "public_source": "https://doi.org/10.1016/j.ajt.2023.01.008",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The survival association was observational in selected waitlisted people; causal methods, duration, perioperative burden, general eligibility, and arbitrary-cycle efficacy were not established."
+        },
+        {
+          "id": "biology-engineered-heart-muscle",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Engineered heart muscle supported selected anatomical integration observations in macaques and an early human case.",
+          "public_source": "https://www.nature.com/articles/s41586-024-08463-0",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "A macaque functional statistic was responder-selected. Perioperative death, rejection after immune withdrawal, and ectopic tissue remain; anatomy does not establish controlled clinical benefit."
+        },
+        {
+          "id": "biology-kidney-preservation",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Nanowarmed rat kidneys supported recipients for 30 days after long-duration organ storage.",
+          "public_source": "https://doi.org/10.1038/s41467-023-38824-8",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "This is component preservation and life support, not whole-body revival. A 30-day nonsignificant comparison is not equivalence or long-term safety."
+        },
+        {
+          "id": "biology-fetal-graft-pd",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "An older fetal-graft randomized trial found no overall motor benefit despite graft persistence evidence.",
+          "public_source": "https://doi.org/10.1002/ana.10720",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Primary access was abstract-level. Product era and study context differ from newer graft products; the null remains specific to the tested intervention and endpoint."
+        },
+        {
+          "id": "biology-dream-hf",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "DREAM-HF reported a null primary clinical endpoint despite a regenerative rationale.",
+          "public_source": "https://doi.org/10.1016/j.jacc.2022.11.061",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The null constrains the tested product and endpoint and does not prove that all regenerative approaches are ineffective."
+        },
+        {
+          "id": "biology-stem-pd",
+          "heading": "Slowing decline is different from restoring function",
+          "claim": "Early modern Parkinson's graft evidence remains uncontrolled or mixed and includes serious treatment-context harm.",
+          "public_source": "https://www.nature.com/articles/s41591-026-04525-0",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Placebo effects, medication changes, disease severity, maturation, small samples, and immunosuppression complicate attribution."
+        },
+        {
+          "id": "biology-dunedinpace-validation",
+          "heading": "Biomarkers are not outcomes",
+          "claim": "DunedinPACE predicted mortality and cardiovascular outcomes in cohorts separate from its training cohort.",
+          "public_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8853656/",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "This supports prognosis, not treatment-effect surrogacy. Cohort reuse across model analyses limits independence."
+        },
+        {
+          "id": "biology-clock-reliability",
+          "heading": "Biomarkers are not outcomes",
+          "claim": "A later clock study supported improved technical reliability.",
+          "public_source": "https://escholarship.org/content/qt1kk8q3wv/qt1kk8q3wv.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Analytical reliability is distinct from prognosis, intervention response, and treatment-effect clinical surrogacy."
+        },
+        {
+          "id": "biology-calerie-clock",
+          "heading": "Biomarkers are not outcomes",
+          "claim": "A randomized CALERIE ancillary analysis found intervention responsiveness for DunedinPACE while other clocks were null.",
+          "public_source": "https://www.nature.com/articles/s43587-022-00357-y.pdf",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "Participant reuse and disagreement among clocks remain. Marker response does not convert clock units into life extension or establish treatment surrogacy."
+        },
+        {
+          "id": "biology-do-health-marker",
+          "heading": "Biomarkers are not outcomes",
+          "claim": "An exploratory DO-HEALTH ancillary analysis reported nominal marker-response patterns in 777 selected Swiss participants.",
+          "public_source": "https://www.nature.com/articles/s43587-024-00793-y",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "There was no single primary clock and no established multiplicity-controlled effect. Long-term survival meaning, timing, selection, and training-overlap questions remained."
+        },
+        {
+          "id": "biology-do-health-clinical",
+          "heading": "Biomarkers are not outcomes",
+          "claim": "The larger DO-HEALTH parent trial detected no benefit across its six primary clinical outcomes under its specified threshold.",
+          "public_source": "https://jamanetwork.com/journals/jama/fullarticle/2772758",
+          "source_status": "available",
+          "original_check_date": "2026-09-13",
+          "access_limits": "The parent and marker analyses used different samples, estimands, sensitivity, and tests. Their contrast neither proves individual-level surrogate failure nor validates surrogacy."
+        }
+      ]
+    }
+  ]
+}
