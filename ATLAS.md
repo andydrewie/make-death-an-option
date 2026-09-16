@@ -87,7 +87,7 @@ Constitutional change also has different levels. The adopted direction gives the
 A continuity network connects records, interpretations, people, commitments, projects, capabilities, institutions and possible successors across time. The object is larger than storage and larger than a portfolio of owned assets.
 
 ```mermaid
-flowchart LR
+flowchart TD
     R[Records and provenance] --> C[Context and interpretation]
     C --> J[Judgment and revision]
     M[Legitimate commitments] --> A[Authorized action]
