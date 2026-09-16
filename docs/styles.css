@@ -157,7 +157,7 @@ a {
   outline-offset: 4px;
 }
 
-.privacy {
+.project-signature {
   margin: clamp(2rem, 3.5vw, 2.75rem) 0 0;
   color: var(--muted);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -434,7 +434,7 @@ a {
     font-size: clamp(3rem, 15vw, 4.1rem);
   }
 
-  .privacy {
+  .project-signature {
     font-size: 0.82rem;
     line-height: 1.6;
   }
