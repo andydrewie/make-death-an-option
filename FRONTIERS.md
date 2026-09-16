@@ -15,7 +15,7 @@ Neither lane licenses invented science. Immediate usefulness is not the only mea
 | Neural and representational continuity | Connectomics, neural dynamics, identity criteria, commitment fidelity, digital selves and deathbots. | Preserving an experiencing subject through deeper transformations. Models and representations do not decide the subject question by resemblance. |
 | Capability and substrate | World models and spatial intelligence; materials; photonics; novel compute; wetware and biohybrid systems; networking and distributed memory. | New ways to compute, reconstruct or manufacture. Each investigation needs a workload, comparator and integration account. |
 | Material abundance | Energy, thermal limits, infrastructure, sensing, fabrication and the costs of access. | The Replicator as a radical abundance direction, not a product claim or a synonym for current manufacturing. Useful component discoveries can precede any comprehensive realization. |
-| Legitimate coordination | Provenance, verifiable computation, delegated authority, succession, frontier governance, regulation and institutional capture. | Adaptive Bureaucracy for Superhuman Agents: the minimum structure that preserves alignment without strangling adaptation. Intent, amendment, appeal, emergency powers and machine interpretation remain contestable. |
+| Legitimate coordination | Provenance, verifiable computation, delegated authority, succession, frontier governance, regulation and institutional capture. | Adaptive Bureaucracy for Superhuman Agents asks what minimum institutional structure could preserve alignment without strangling adaptation. Intent, amendment, appeal, emergency powers and machine interpretation remain contestable. |
 | Civilizational purpose | Universal Altruism, usable optionality, dignified floors, pluralism, strongest technical and philosophical objections. | Cybernetic coexistence among humans and more capable agents. Shared work need not require uniform beliefs or compulsory participation. |
 
 ## Adaptive institutions as a bounded research direction
@@ -24,7 +24,9 @@ Neither lane licenses invented science. Immediate usefulness is not the only mea
 
 Concrete cases can examine principal–agent conflict, competing constitutional interpretations, discretionary authority, emergency exceptions, appeals, resource allocation, model replacement and succession. Procedural compliance that defeats the legitimate purpose is a possible failure; unaccountable improvisation is another. This remains a repo research direction rather than a new central thesis or an already validated governance mechanism.
 
-## A civilization that can create its own citizens
+<a id="a-civilization-that-can-create-its-own-citizens"></a>
+
+## When a civilization can create new beings
 
 Consider a conditional future in which some agents can create additional beings with morally relevant experiences or interests. The possibility connects UA's ambition to expand consciousness with its commitments to dignity and plurality. Expansion could create new flourishing lives; it could also create dependencies faster than an institution can sustain them. Neither possibility is established merely by running more copies of present software.
 
@@ -32,7 +34,7 @@ Several questions then separate. A being's moral standing need not determine its
 
 The difficult case is not simply whether more lives are good. It is how an expansion affects existing and new claimants, who can impose its costs, and what can be changed without treating either group as expendable. Preventing one route to capture could itself centralize control over creation. Protecting existing resources could exclude legitimate newcomers. These competing risks make this a focused institutional and philosophical research candidate rather than a ready policy.
 
-[Q-UA-01](QUESTIONS.md#q-ua-01--a-civilization-that-can-create-its-own-citizens) provides the bounded question. No present model is declared conscious, no numerical moral unit is adopted, and no population or resource policy is supplied here.
+[Q-UA-01](QUESTIONS.md#q-ua-01--when-a-civilization-can-create-new-beings) provides the bounded question. No present model is declared conscious, no numerical moral unit is adopted, and no population or resource policy is supplied here.
 
 ## Selecting work
 

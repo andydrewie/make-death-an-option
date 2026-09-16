@@ -99,22 +99,22 @@ Preserving a life across time includes preserving why earlier decisions were mad
 | Institutional mandate or office | Continued authority depends on the legitimate mandate and current grant. | Confusing mission membership or access to assigned resources with basic standing |
 | Successor lineage | Context and causal descent may continue despite disagreement. | Treating descent as automatic representation authority or rejection of the founder as loss of possible personhood |
 
-A lineage can also branch. This illustrative notation makes simultaneous descendants and later generations visible:
+A lineage can also branch. This example shows simultaneous descendants and later generations without assigning them continuity levels:
 
 ```mermaid
 flowchart TB
-    A["A0<br/>Original source person"] --> B["C1A<br/>First-generation branch"]
-    A --> C["C1B<br/>First-generation branch"]
-    B --> D["C2A1<br/>Later branch"]
-    B --> F["C2A2<br/>Later branch"]
-    C --> G["C2B<br/>Later branch"]
+    A["Original source person"] --> B["Successor A"]
+    A --> C["Successor B"]
+    B --> D["One descendant of A"]
+    B --> F["Another descendant of A"]
+    C --> G["A descendant of B"]
     classDef origin fill:#153D40,stroke:#869099,color:#F2E9D8;
     classDef branch fill:#F2E9D8,stroke:#25231F,color:#25231F;
     class A origin;
     class B,C,D,F,G branch;
 ```
 
-The arrows indicate descent only. They do not establish subjective continuity, personhood, permission to represent A0, or an inherited mandate. Generation depth is not a continuity level: C2 is a lineage label, not Level 2 in the six-threshold framework.
+The arrows indicate descent only. They do not establish subjective continuity, personhood, permission to represent the original person, or an inherited mandate. Generation depth and the six continuity thresholds answer different questions.
 
 The distinction between an office and a person is central. A successor who rejects a project may lose authority to represent it or control mission-bound assets under legitimate terms. That does not by itself decide the successor's standing or right to exist.
 
@@ -130,8 +130,8 @@ A continuity network connects records, interpretations, people, commitments, pro
 flowchart TD
     R[Records and provenance] --> C[Context and interpretation]
     C --> J[Judgment and revision]
-    M[Legitimate commitments] --> A[Authorized action]
-    J --> A
+    M[Legitimate commitments] --> A[Action under current authority]
+    J -. informs proposed action .-> A
     A --> P[Projects and capability]
     P --> F[Viable future paths]
     H[Independent people and relationships] -. chosen participation .-> C
@@ -179,7 +179,7 @@ The central coexistence question is how shared limits on domination can support 
 
 ### Five concepts, different questions
 
-The civilizational concepts address different aspects of the proposed framework:
+The civilizational concepts address different aspects of the proposed framework: an integrative framing, a coordination approach, a pattern of adaptation, a progress heuristic and a normative direction. They are not five organizations or equivalent kinds of entity:
 
 ```mermaid
 flowchart LR
@@ -194,7 +194,7 @@ flowchart LR
     class C,F,H,M,U concept;
 ```
 
-The connecting lines associate questions. They do not describe a causal sequence, institutional hierarchy, proven benefits or an exhaustive theory. Dynamic homeostasis means sustaining viable coexistence through change, not freezing the system in place. The [alignment assessment](research/ALIGNMENT.md#the-retained-architecture) explains the conceptual roles, supporting evidence and open disputes separately.
+The connecting lines associate questions. They do not describe a causal sequence, institutional hierarchy, proven benefits or an exhaustive theory. Dynamic homeostasis names the pattern of sustaining viable coexistence through change, including within Adaptive Federation; it is not a separate institution or a call to freeze the system in place. The [alignment assessment](research/ALIGNMENT.md#the-retained-architecture) explains the conceptual roles, supporting evidence and open disputes separately.
 
 ## Exploration without false certainty
 

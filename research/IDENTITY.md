@@ -14,7 +14,7 @@ This distinction matters because present systems can already produce convincing 
 | Autobiographical reconstruction | The entity can recover or organize facts and narratives from a life. | Accurate provenance, source reliability, causal or narrative relations appropriate to the chosen theory, and explicit uncertainty. | Ownership of the original experience or first-person memory. |
 | Decision fidelity | The entity preserves specified commitments or constraints on unfamiliar choices. | Declared commitments, matched baselines, new domains, reasons or endorsement where relevant, and longitudinal drift tests. | Permission to act or general fidelity to a person. |
 | Projected will | An output faithfully interprets or extends earlier governing intent. | A defined target, interpretation rule, conflict priority, revision terms, and treatment of changed circumstances. | Current lawful authority, legitimate discretion or personal identity. |
-| Authorized continuation | The current entity has a valid, scoped mandate to perform specified acts. | Competent issuer, valid subject and act binding, present scope, applicable rules, and effective amendment, revocation and succession mechanisms. | Truth of every credentialed claim, moral legitimacy, personhood or survival. |
+| Scoped authorization | The current entity has a valid, scoped mandate to perform specified acts. | Competent issuer, valid subject and act binding, present scope, applicable rules, and effective amendment, revocation and succession mechanisms. | Truth of every credentialed claim, moral legitimacy, personhood or survival. |
 | Personal continuity | The earlier experiencing subject continues as this entity. | A defended persistence criterion and evidence that the actual transformation satisfies it. | This conclusion is not supplied by resemblance, records, prediction, provenance or authority alone. |
 | Successor or lineage standing | A causally descended entity exists and may develop interests, agency or personhood of its own. | Provenance and an account of present capacities and standing. | Numerical identity with the predecessor or inherited authority over the predecessor's office and assets. |
 
@@ -44,11 +44,15 @@ Institutional rules can also recognize express or implied agency, apparent autho
 
 ## The central distinctions
 
-### Style resemblance is not represented authority
+<a id="style-resemblance-is-not-represented-authority"></a>
+
+### Style resemblance does not establish authority to act
 
 A system may write in a familiar voice and predict selected answers while lacking any authority to message a friend, commit time, transfer assets or enter an agreement. The stronger the action, the more important it becomes to identify the actor, the act, the mandate, the scope, the relevant rules and the current validity of the authorization.
 
-### Represented authority is not current authorization
+<a id="represented-authority-is-not-current-authorization"></a>
+
+### Historical intent does not establish current authorization
 
 A historically accurate account of what someone once wanted may help interpret a promise or project. It does not settle what should happen after circumstances change. Current authorization requires a live institutional bridge: who may act, for what purpose, under which priority and amendment rules, and with what revocation and review. A credential proves only what its verification semantics support.
 
@@ -80,7 +84,7 @@ No current behavioral test adjudicates among these frameworks. The strongest fav
 
 ## A responsible continuity ladder
 
-A useful ladder keeps ambition visible without treating lower levels as evidence for higher ones:
+This is the article's [six-threshold framework](../ATLAS.md#six-continuity-thresholds): durable will corresponds to Immortality of Will, subjective continuity to First-Person Continuity, and cross-substrate subjective continuity to Transcendence. The seven claims above distinguish claims and their required warrants; they are not seven continuity levels. Support for one threshold does not automatically establish another.
 
 0. **Archive:** information persists.
 1. **Durable will:** valid commitments, promises, projects, instructions and resources remain executable within authorized boundaries.

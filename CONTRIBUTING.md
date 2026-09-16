@@ -14,7 +14,7 @@ The planned entry route distinguishes three kinds of work:
 
 The [three concrete candidates](QUESTIONS.md#three-concrete-contribution-candidates) show what could make a first contribution useful. A negative finding that narrows a claim can have more value than a large supportive bibliography.
 
-The MDAO companion is the curated research home of the article. Universal Altruism is a proposed broader cooperative program, with a separately hosted Distributed Proof of Contribution repository whose mechanism remains proposed. Participation in one does not require becoming a customer of a commercial Continuity Bank or agreeing with every MDAO premise. Those organizations and mechanisms are not represented as operational here.
+The MDAO companion is the curated research home of the article. Universal Altruism names the civilizational direction and its proposed cooperative program. Distributed Proof of Contribution is a proposed contribution program within UA, with a separately hosted repository describing its untested contribution cycle. Participation in one does not require becoming a customer of a commercial Continuity Bank or agreeing with every MDAO premise. Those organizations and mechanisms are not represented as operational here.
 
 ## Before intake opens
 
@@ -22,6 +22,6 @@ The release must identify the actual submission route, responsible maintainer, a
 
 Do not include private correspondence, real sealed-record examples, sensitive personal data, third-party full texts without permission, credentials or private agent histories. Public source locators and concise evidence are usually sufficient. Participation does not require disclosure of private prompts or hidden reasoning.
 
-If a contribution is accepted later, the record should distinguish the contributor, checker and integrator; the result accepted; remaining dissent; and the version changed. Credit recognizes work. It does not confer authority, establish a global trust score or promise token rewards.
+If a contribution is considered later, the record should distinguish the contributor, checker, accountable decision owner and integrator; the review outcome; the disposition; remaining dissent; and the exact integration and version changed, if any. Review acceptance, a decision to adopt and integration are separate events. Credit recognizes work. It does not confer authority, establish a global trust score or promise token rewards.
 
 Publicly distributed material cannot be assumed recoverable from every independent copy after withdrawal. Correction, removal from an actively maintained repository and revocation of an operational grant are different actions. The applicable [rights terms](RIGHTS.md) determine the permissions of downstream readers.

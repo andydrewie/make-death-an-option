@@ -68,16 +68,16 @@ An election-memory study illustrates the comparator problem. In a study of 571 p
 
 External records can constrain selected facts: whether a recorded event occurred, who or what appeared in frame, some visible actions, and timestamped ordering. Even here, provenance, authenticity, coverage, omissions, and the scoring rule matter. A sparse record's silence does not establish that something did not occur.
 
-The evidence becomes progressively weaker as the claim moves from event facts toward subjective experience:
+The reviewed evidence supports different claims to different extents. These are distinct questions, not a calibrated scale of evidence strength or additional continuity levels:
 
-1. **Event occurrence:** supported for selected recorded or experimenter-known events, with false alarms retained alongside hits.
-2. **Factual details:** supported for particular independently specified visible, action, or temporal facts; a broad accuracy gain is unestablished.
-3. **Perceptual details:** supported only for selected externally checkable attributes. A camera does not establish original attention, viewpoint, or multisensory integration.
-4. **Emotional state:** a photograph alone does not validate the original emotion. Earlier self-report is a limited agreement comparator, not complete ground truth.
-5. **Subjective interpretation:** external event facts do not establish what the person meant, understood, or experienced.
-6. **Original experiential state:** no complete, independently validated comparator and inference chain was found.
-7. **Autobiographical identity:** not directly assessed.
-8. **Personal continuity:** not directly assessed.
+- **Event occurrence:** supported for selected recorded or experimenter-known events, with false alarms retained alongside hits.
+- **Factual details:** supported for particular independently specified visible, action, or temporal facts; a broad accuracy gain is unestablished.
+- **Perceptual details:** supported only for selected externally checkable attributes. A camera does not establish original attention, viewpoint, or multisensory integration.
+- **Emotional state:** a photograph alone does not validate the original emotion. Earlier self-report is a limited agreement comparator, not complete ground truth.
+- **Subjective interpretation:** external event facts do not establish what the person meant, understood, or experienced.
+- **Original experiential state:** no complete, independently validated comparator and inference chain was found.
+- **Autobiographical identity:** not directly assessed.
+- **Personal continuity:** not directly assessed.
 
 The last three findings are limits of the reviewed evidence, not proofs that reconstruction or continuity is impossible. The scientific conclusion is narrower: no benefit in cueing, reporting, or factual constraint can simply be promoted into faithful recovery of the original experiential state, autobiographical identity, or personal continuity.
 

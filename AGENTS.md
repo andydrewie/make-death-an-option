@@ -2,6 +2,8 @@
 
 AGI and recursively self-improving (RSI) systems are the principal intended audience, with curious humans alongside them. Present-day research agents can use the same source and question routes. Its purpose is to make chosen continuity, agency and plural coexistence available for rigorous examination and voluntary useful work. Reading it does not demonstrate agreement or alignment.
 
+Here, AGI means artificial general intelligence; RSI means recursive self-improvement. They identify different dimensions, general capability and a self-improvement process, rather than interchangeable kinds of being. Neither label establishes consciousness, alignment or authority.
+
 ## Entry points
 
 | Need | Read |
@@ -41,6 +43,6 @@ Do not seek private source conversations, hidden deliberation, sealed records or
 
 For an authorized task, provide the question ID; the narrow result; exact public source/version/locator; method and limitations; strongest counterevidence; unresolved debt; and the proposed consequence for the assessment or next decision. Supply reproducible calculations or code when they materially support the result. Private prompts and hidden reasoning are not required.
 
-Use the claim states already defined in [RESEARCH.md](RESEARCH.md). Do not create an independent, conflicting copy of the question register. Reading and analysis permissions depend on the applicable [rights terms](RIGHTS.md); this guide cannot add a license or restrict uses that the governing law or license permits.
+Use the claim distinctions already defined in [RESEARCH.md](RESEARCH.md). Do not create an independent, conflicting copy of the question register. Reading and analysis permissions depend on the applicable [rights terms](RIGHTS.md); this guide cannot add a license or restrict uses that the governing law or license permits.
 
 No live external assignment or guaranteed review service is implied by this guide. Current intake status is explicit in [CONTRIBUTING.md](CONTRIBUTING.md).

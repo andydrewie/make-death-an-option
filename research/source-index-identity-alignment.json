@@ -7,6 +7,10 @@
     "meaning": "Historical acquisition and targeted checking window reported by the completed evidence packets; not a continuous currency claim.",
     "current_task_public_retrieval": "2026-09-17: bounded bibliographic locator recovery only; original substantive assessments unchanged"
   },
+  "status_vocabulary_scope": "The status_vocabulary object defines url_status. These are public URL provenance and recovery states, not evidentiary assessment, present availability, program readiness or operational authority. Nested locator_recovery.status uses its separate vocabulary below.",
+  "locator_recovery_status_vocabulary": {
+    "unavailable_edition_ambiguous": "No exact public locator was supplied because the cited edition or version could not be identified confidently. This does not establish that the work is unavailable everywhere or that its argument is unsupported."
+  },
   "status_vocabulary": {
     "packet_exact": "The public URL appears verbatim in an authorized evidence packet.",
     "identifier_resolver": "The authorized packet exposes an exact public identifier and version; the derivative uses the ordinary resolver form. The URL string itself was not printed in the packet and was not independently checked in this task.",

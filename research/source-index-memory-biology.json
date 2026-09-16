@@ -1,6 +1,7 @@
 {
   "schema_version": "1.0",
-  "status": "PUBLIC-CANDIDATE SOURCE NAVIGATION",
+  "status": "PUBLISHED SOURCE NAVIGATION",
+  "source_status_scope": "Historical source-access and locator status under the recorded checking dates and material access limits; not claim support, source truth, complete review or a guarantee of present availability.",
   "evidence_cutoff": "2026-09-13",
   "original_check_date": "2026-09-13",
   "scope_note": "One entry may bind a paragraph containing several statistics from the same study. This index supplies source navigation and access limits; it does not add scientific claims or certify the underlying publications.",

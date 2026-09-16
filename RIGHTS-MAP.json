@@ -99,6 +99,11 @@
       "scope": "Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
     },
     {
+      "path": "docs/assets/mdao-cover.png",
+      "license": "LicenseRef-MDAO-Cover-Permission",
+      "scope": "Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
+    },
+    {
       "path": "research/ALIGNMENT.md",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."

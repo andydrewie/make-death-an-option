@@ -11,7 +11,11 @@ Four bounded assessments support examination of the article. Their purpose is to
 
 ## Read a claim at its own level
 
-**Supported within scope** means that a stated population, procedure and outcome have relevant supporting evidence. It is not a portable guarantee. **Qualified** retains a claim with explicit restrictions. **Insufficient** means that the reviewed evidence cannot establish the claim. **Not assessed** marks a question outside the assessment. **Normative** identifies an ethical or institutional commitment. **Conjectural** marks a possibility or proposed explanatory bridge that remains unvalidated.
+**Evidentiary assessment:** **Supported within scope** means that a stated population, procedure and outcome have relevant supporting evidence. It is not a portable guarantee. **Qualified** retains a claim with explicit restrictions. **Insufficient** means that the reviewed evidence cannot establish the claim. **Not assessed** marks a question outside the assessment.
+
+**Claim framing:** **Normative** identifies an ethical or institutional commitment. **Conjectural** marks a possibility or proposed explanatory bridge that remains unvalidated. These labels are not rival evidence grades: a conjecture may have partial support, and a normative proposal may depend on empirical claims that require separate assessment.
+
+Keep unresolved uncertainty, document publication, program readiness and operational authority separate from both. A published assessment can leave a claim unknown; a supported claim does not authorize an action; an adopted commitment does not establish that its proposed implementation works. Source-index access and locator labels describe the route to evidence, not its strength.
 
 Insufficient evidence for a possibility is not evidence of permanent impossibility. A sincere commitment, by the same reasoning, does not supply missing empirical support. Distinctions remain attached to individual claims rather than compressed into one score for MDAO.
 

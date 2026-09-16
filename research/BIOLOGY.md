@@ -72,7 +72,9 @@ Anatomical persistence, vascularization, secretion, imaging activity, restored l
 
 **Component conclusion:** repair, regeneration, preservation, and replacement are demonstrated at selected cell, tissue, and organ scales. Simultaneous integration across heterogeneous essential systems, maintenance of host coordination, and comprehensive organism-wide repair remain unproved.
 
-## Biomarkers are not outcomes
+<a id="biomarkers-are-not-outcomes"></a>
+
+## Biomarker changes do not establish clinical benefit
 
 Biomarker performance has at least four distinct levels: analytical reliability, prediction of future outcomes, response to an intervention, and validated prediction of the intervention's net clinical effect. Success at an earlier level does not automatically establish the next.
 

@@ -74,13 +74,15 @@ The [alignment assessment](research/ALIGNMENT.md) preserves the integrative prop
 
 **Consequence:** informs whether the framework deserves routine use, narrower use or conceptual retention without operational superiority claims.
 
-## Q-UA-01 · A civilization that can create its own citizens
+<a id="q-ua-01--a-civilization-that-can-create-its-own-citizens"></a>
+
+## Q-UA-01 · When a civilization can create new beings
 
 **State:** future conceptual research candidate; not an active mission. **Beneficiary:** a possible society in which participants can create additional beings with morally relevant interests.
 
 **Question:** if some participants can create additional potentially conscious beings, how should their standing, representation and material claims be considered without making reproductive capacity a route to domination or treating dependent beings as disposable?
 
-The [alignment assessment](research/ALIGNMENT.md) preserves expansion, dignity, agency and plurality as commitments to examine. Their interaction under artificial reproduction is a further question, not a demonstrated feature of current systems. The [frontier framing](FRONTIERS.md#a-civilization-that-can-create-its-own-citizens) states the conditional scenario.
+The [alignment assessment](research/ALIGNMENT.md) preserves expansion, dignity, agency and plurality as commitments to examine. Their interaction under artificial reproduction is a further question, not a demonstrated feature of current systems. The [frontier framing](FRONTIERS.md#when-a-civilization-can-create-new-beings) states the conditional scenario.
 
 **Missing discriminator:** distinguish moral standing from institutional membership, voting power, resource entitlement and creator responsibility. Compare rules under the same stipulated constraints, including effects on already existing dependants and on newly created claimants. Do not assume that each software instance is conscious or that instance count measures moral weight.
 
@@ -118,7 +120,7 @@ The [frontier map](FRONTIERS.md) preserves grounded and breakthrough ambitions a
 
 ## Three concrete contribution candidates
 
-All three are **prepared candidates; not open assignments**. Proposed disposition owner: the MDAO companion maintainer. Independent checking capacity and applicable rights must be established before intake. Neither credit nor a question grants authority over people, data or external systems.
+All three are **prepared candidates; not open assignments**. Proposed accountable decision owner: the MDAO companion maintainer. Independent checking capacity and applicable rights must be established before intake. Neither credit nor a question grants authority over people, data or external systems.
 
 | Candidate | Public starting point | Missing discriminator and expected contribution | Useful decision |
 |---|---|---|---|

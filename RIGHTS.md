@@ -32,6 +32,7 @@ The original material authored for this companion in the following files is lice
 - `RESEARCH.md`
 - `SELF-IMPROVEMENT.md`
 - `RIGHTS.md`
+- `RIGHTS-MAP.json`
 - `research/ALIGNMENT.md`
 - `research/BIOLOGY.md`
 - `research/IDENTITY.md`
@@ -53,7 +54,7 @@ Downstream adaptations are independent works. They are not automatically accepte
 
 ## Cover permission
 
-`assets/mdao-cover.png` is an AI-generated and human-directed cover created for the article. It includes visible ImageWriter and Apple names or marks. Those marks belong to their respective owners. No ownership of those marks, affiliation with their owners, sponsorship, endorsement, or permission from them is claimed. This notice grants no trademark rights and no rights Andrew Fai does not hold.
+`assets/mdao-cover.png`, also served unchanged as `docs/assets/mdao-cover.png`, is an AI-generated and human-directed cover created for the article. It includes visible ImageWriter and Apple names or marks. Those marks belong to their respective owners. No ownership of those marks, affiliation with their owners, sponsorship, endorsement, or permission from them is claimed. This notice grants no trademark rights and no rights Andrew Fai does not hold.
 
 To the extent Andrew Fai holds the necessary rights, permission is granted to reproduce and display the cover with legitimate sharing, linking, or presentation of the article, including resizing or other technical format changes necessary for that use. Separate permission is required for standalone merchandise, standalone commercial exploitation of the cover, material alteration of the image, or use of it as another person’s or organization’s identity asset, to the extent those acts require rights held by Andrew Fai. The cover is not licensed under the article’s CC BY-ND 4.0 license or the companion’s CC BY-SA 4.0 license.
 
