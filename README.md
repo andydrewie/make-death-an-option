@@ -10,7 +10,7 @@
 
 **Current state:** a published research companion supported by four completed, bounded research assessments. Universal Altruism and DPoC program documents are published; contribution intake is closed, no DPoC contribution cycle has been executed and its first pilot is deferred. The mechanism and the separate commercial direction remain proposed. Hosting does not establish operational qualification.
 
-**Navigate the companion:** [Explore the framework](ATLAS.md) · [Use the agent guide](AGENTS.md)
+**Navigate the companion:** [Explore the framework](ATLAS.md) · [Use the agent guide](AGENTS.md) · [Project Atlas](https://open.andrewfai.com/explore/)
 
 Make Death an Option proposes a future in which continued existence becomes increasingly possible while the choice to stop remains protected. Its scope extends from records, memory and durable commitments to biological maintenance, first-person continuity and the institutions required to preserve freedom across longer lives.
 
@@ -76,6 +76,6 @@ Questions and contribution candidates do not themselves authorize external actio
 
 The [development notes](DEVELOPMENT.md) trace four refinements with explicit wording provenance. The [Continuity Bank introduction](CONTINUITY-BANK.md) describes the separate commercial direction and its current limits.
 
-Material-specific reuse terms are in [RIGHTS.md](RIGHTS.md): the unchanged article and Bank overview, original companion material and cover have distinct permissions.
+Material-specific reuse terms are in [RIGHTS.md](RIGHTS.md): the designated article and Bank overview, original companion material and cover have distinct permissions.
 
 The complete article is preserved in [ARTICLE.md](ARTICLE.md). Companion assessments may qualify or challenge its empirical bridges without silently revising that text.

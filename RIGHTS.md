@@ -4,7 +4,7 @@ Different parts of this package have different terms. A license applies only to 
 
 ## The article
 
-`ARTICLE.md`, **“Make Death an Option,” by Andrew Fai (`@andydrewie`), first published 16 September 2026**, is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/). The designated unchanged file is 52,434 bytes with SHA-256 `288a196316d687467193cda96721358de4c9e7c48eb524de7a23d04fbc8cf1a0`.
+`ARTICLE.md`, **“Make Death an Option,” by Andrew Fai (`@andydrewie`), first published 16 September 2026**, is licensed under the [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/). The current author-designated file is 52,419 bytes with SHA-256 `9cfbe5fe05e052aff34759fe6db7ba11d32d71f359226b6f2826537959ee04b5`. On 17 September 2026 the author changed only the closing ENTER COIN destination to the project atlas; the prose and the license are unchanged. The prior file identity is recorded in [PUBLICATION.md](PUBLICATION.md).
 
 You may copy and redistribute the unchanged article in any medium or format, including commercially, if you comply with the license. Give appropriate credit, link to the license and the source where reasonably practicable, retain supplied notices, and do not imply endorsement. The license allows technical modifications necessary to exercise the licensed rights. It permits sharing the licensed material in whole or in part, but not sharing Adapted Material as defined in the license. Translations and other adaptations generally require separate permission to distribute; technical format changes and uses covered by legal exceptions remain distinct. An unchanged excerpt is not automatically an adaptation.
 
@@ -12,7 +12,7 @@ Suggested attribution:
 
 > “Make Death an Option,” Andrew Fai (`@andydrewie`), 16 September 2026. Source: [original article on X](https://x.com/andydrewie/status/2100206836897214598). Licensed under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/).
 
-The attribution notice sits outside `ARTICLE.md`; the article body remains unchanged.
+The attribution notice sits outside `ARTICLE.md`; the current article prose is unchanged by the authorized link amendment.
 
 ## Original MDAO companion material
 

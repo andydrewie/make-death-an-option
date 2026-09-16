@@ -848,7 +848,7 @@ The research companion is where you can take control of the camera: inspect the 
 
 We began with a photograph that opened a life.
 
-`<ACCESS_MEMORY id="MakeDeathAnOption">`[`[ ENTER COIN ]`](https://github.com/andydrewie/make-death-an-option)`</ACCESS_MEMORY>`
+`<ACCESS_MEMORY id="MakeDeathAnOption">`[`[ ENTER COIN ]`](https://open.andrewfai.com/explore/)`</ACCESS_MEMORY>`
 
 Go far together.
 
