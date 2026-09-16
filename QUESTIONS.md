@@ -44,6 +44,22 @@ The [identity assessment](research/IDENTITY.md) supports bounded prediction and 
 
 **Consequence:** constrains delegation claims and may reveal that a representation requires narrower authority or more review.
 
+The conceptual analysis [Continuity Through Self-Improvement](SELF-IMPROVEMENT.md) develops the prior question of what a fidelity target should preserve when knowledge and methods change. Its fictional case supplies an argument, not an executed evaluation.
+
+## Q-ID-02 · What could distinguish continuation from succession?
+
+**State:** unresolved philosophical and evidentiary question. **Beneficiary:** people assessing claims about persistence of an experiencing subject across transformation.
+
+**Question:** for one specified transformation, what would distinguish continuation of the original subject from a successor with matching records, behavior and reported memories?
+
+The [identity assessment](research/IDENTITY.md) distinguishes representation and lineage from first-person survival. The [continuity thresholds](ATLAS.md#six-continuity-thresholds) retain the stronger ambition without treating resemblance as its demonstration. A theory may require a relation that available observations cannot establish; that limitation must remain visible.
+
+**Missing discriminator:** specify the competing persistence criteria, the observation each predicts, and whether the difference is accessible to an observer, only to a subject, or not operationally specified. Gradual replacement, interruption and restart, copying, and branching are distinct candidate comparisons; select one before designing a study. A verbal claim of continuity cannot serve as its own independent validation.
+
+**Useful output:** a bounded comparison separating a theory's required relation, available evidence, rival interpretations and residual underdetermination. “No discriminating observation identified” is a legitimate result. The comparison should also identify what the available evidence can establish about memory, function or lineage without promoting those results into proof of survival.
+
+**Consequence:** changes which continuity claims can be responsibly offered and which further investigation could matter. Consent, legal status, administrative designation and a successor's possible standing remain separate from a measurement of the original subject's persistence.
+
 ## Q-CA-01 · Does the wider frame improve a decision?
 
 **State:** unresolved comparative hypothesis. **Beneficiary:** institutions choosing among consequential courses of action.
@@ -57,6 +73,20 @@ The [alignment assessment](research/ALIGNMENT.md) preserves the integrative prop
 **Useful output:** a matched case comparison with a reasoned decision delta, including a legitimate finding of no additional value.
 
 **Consequence:** informs whether the framework deserves routine use, narrower use or conceptual retention without operational superiority claims.
+
+## Q-UA-01 · A civilization that can create its own citizens
+
+**State:** future conceptual research candidate; not an active mission. **Beneficiary:** a possible society in which participants can create additional beings with morally relevant interests.
+
+**Question:** if some participants can create additional potentially conscious beings, how should their standing, representation and material claims be considered without making reproductive capacity a route to domination or treating dependent beings as disposable?
+
+The [alignment assessment](research/ALIGNMENT.md) preserves expansion, dignity, agency and plurality as commitments to examine. Their interaction under artificial reproduction is a further question, not a demonstrated feature of current systems. The [frontier framing](FRONTIERS.md#a-civilization-that-can-create-its-own-citizens) states the conditional scenario.
+
+**Missing discriminator:** distinguish moral standing from institutional membership, voting power, resource entitlement and creator responsibility. Compare rules under the same stipulated constraints, including effects on already existing dependants and on newly created claimants. Do not assume that each software instance is conscious or that instance count measures moral weight.
+
+**Useful output:** one case with competing institutional responses, explicit premises about standing and scarcity, and a reasoned account of who bears each response's cost. Empirical claims about consciousness or replication would require separately scoped evidence.
+
+**Consequence:** could constrain proposed expansion or representation rules before an institution relies on them. It does not issue reproductive, coercive or resource-allocation authority.
 
 ## Q-INST-01 · Refusal when exit is not enough
 

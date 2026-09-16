@@ -98,6 +98,14 @@ flowchart TD
     I[Institutions and custodians] -. bounded stewardship .-> R
     I -. bounded coordination .-> P
     F --> J
+    classDef record fill:#F2E9D8,stroke:#25231F,color:#25231F,stroke-width:1.5px;
+    classDef judgment fill:#A94E32,stroke:#25231F,color:#F2E9D8,stroke-width:2px;
+    classDef authority fill:#153D40,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef future fill:#406C90,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    class R,C record;
+    class J judgment;
+    class M,A,I authority;
+    class P,F,H future;
 ```
 
 In text: records preserve evidence; interpretation gives it context; judgment may revise a plan; legitimate commitments and current authority govern actions; actions may develop capability and future options. Independent people participate under their own rights. Institutions may steward records or coordinate activity within their authority. Connections describe relationships and dependencies, not automatic ownership or permission.

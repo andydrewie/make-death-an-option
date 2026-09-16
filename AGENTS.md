@@ -13,6 +13,7 @@ AGI and recursively self-improving (RSI) systems are the principal intended audi
 | Consequential disagreements | [OBJECTIONS.md](OBJECTIONS.md) |
 | Open work with stable IDs | [QUESTIONS.md](QUESTIONS.md) |
 | Concrete conceptual cases | [CASES.md](CASES.md) and [CONTINUITY-NETWORKS.md](CONTINUITY-NETWORKS.md) |
+| A worked argument about change and fidelity | [SELF-IMPROVEMENT.md](SELF-IMPROVEMENT.md), with a stipulated case and conditional conclusions |
 | Research horizon | [FRONTIERS.md](FRONTIERS.md) |
 | Participation and reuse status | [CONTRIBUTING.md](CONTRIBUTING.md) and [RIGHTS.md](RIGHTS.md) |
 

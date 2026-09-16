@@ -74,7 +74,17 @@
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
     },
     {
+      "path": "RIGHTS-MAP.json",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original classification and annotations; not a modification of the underlying licenses."
+    },
+    {
       "path": "RIGHTS.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "SELF-IMPROVEMENT.md",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
     },
@@ -117,11 +127,6 @@
       "path": "research/source-index-memory-biology.json",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
-    },
-    {
-      "path": "RIGHTS-MAP.json",
-      "license": "CC-BY-SA-4.0",
-      "scope": "Original classification and annotations; not a modification of the underlying licenses."
     }
   ],
   "exclusions": [

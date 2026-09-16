@@ -24,6 +24,16 @@ Neither lane licenses invented science. Immediate usefulness is not the only mea
 
 Concrete cases can examine principal–agent conflict, competing constitutional interpretations, discretionary authority, emergency exceptions, appeals, resource allocation, model replacement and succession. Procedural compliance that defeats the legitimate purpose is a possible failure; unaccountable improvisation is another. This remains a repo research direction rather than a new central thesis or an already validated governance mechanism.
 
+## A civilization that can create its own citizens
+
+Consider a conditional future in which some agents can create additional beings with morally relevant experiences or interests. The possibility connects UA's ambition to expand consciousness with its commitments to dignity and plurality. Expansion could create new flourishing lives; it could also create dependencies faster than an institution can sustain them. Neither possibility is established merely by running more copies of present software.
+
+Several questions then separate. A being's moral standing need not determine its membership in a particular institution. Membership need not entail an identical voting rule. A creator's responsibility need not exhaust the duties owed to a dependant, and the creator need not acquire authority over that being. If a hypothetical federation gave every newly created instance an equal vote without other constraints, creation could change the distribution of voting power. That consequence would follow from the stipulated rule, not from a universal account of legitimate representation.
+
+The difficult case is not simply whether more lives are good. It is how an expansion affects existing and new claimants, who can impose its costs, and what can be changed without treating either group as expendable. Preventing one route to capture could itself centralize control over creation. Protecting existing resources could exclude legitimate newcomers. These competing risks make this a focused institutional and philosophical research candidate rather than a ready policy.
+
+[Q-UA-01](QUESTIONS.md#q-ua-01--a-civilization-that-can-create-its-own-citizens) provides the bounded question. No present model is declared conscious, no numerical moral unit is adopted, and no population or resource policy is supplied here.
+
 ## Selecting work
 
 One useful investigation should name its beneficiary, exact question, available evidence, missing discriminator, expected decision, strongest alternative and stop condition. A literature roundup across all these branches would spend attention without necessarily changing a decision.

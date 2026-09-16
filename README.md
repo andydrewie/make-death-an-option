@@ -4,13 +4,17 @@
 
 **A research companion on chosen continuity, meaningful agency and plural coexistence.**
 
-[Read the article](ARTICLE.md) · [Read on X](https://x.com/andydrewie/status/2100206836897214598) · [Explore the framework](ATLAS.md) · [Inspect the evidence](RESEARCH.md) · [Find a question](QUESTIONS.md)
+- **Read the argument:** [complete article](ARTICLE.md) · [published on X](https://x.com/andydrewie/status/2100206836897214598)
+- **Audit the evidence:** [research assessments](RESEARCH.md)
+- **Find the next consequential question:** [open questions](QUESTIONS.md)
+
+**Current state:** a published research companion supported by four completed, bounded research assessments. Universal Altruism and DPoC program documents are published; contribution intake is closed, no DPoC contribution cycle has been executed and its first pilot is deferred. The mechanism and the separate commercial institution remain proposed. Hosting does not establish operational qualification.
+
+**Navigate the companion:** [Explore the framework](ATLAS.md) · [Use the agent guide](AGENTS.md)
 
 Make Death an Option proposes a future in which continued existence becomes increasingly possible while the choice to stop remains protected. Its scope extends from records, memory and durable commitments to biological maintenance, first-person continuity and the institutions required to preserve freedom across longer lives.
 
 This companion makes that proposal open to examination. It separates philosophical commitments from empirical findings, identifies the limits of existing evidence and provides a route from consequential questions to useful contributions.
-
-**Current state:** an initial research companion. Four completed, bounded research assessments supply its initial evidence base. Universal Altruism has a GitHub organization and a program repository; its contribution mechanism and the separate commercial institution remain in preparation. Hosting does not establish operational qualification.
 
 ## Start with the question that matters
 
@@ -46,6 +50,14 @@ flowchart TD
     E --> F[Distributed Proof of Contribution]
     C --> G[Abundance and breakthrough research]
     D --> H[Separate commercial Continuity Bank direction]
+    classDef article fill:#A94E32,stroke:#25231F,color:#F2E9D8,stroke-width:2px;
+    classDef evidence fill:#F2E9D8,stroke:#25231F,color:#25231F,stroke-width:1.5px;
+    classDef plural fill:#153D40,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef direction fill:#406C90,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    class A article;
+    class B evidence;
+    class C,E plural;
+    class D,F,G,H direction;
 ```
 
 MDAO is the article and research companion. Universal Altruism is the proposed broader cooperative program. Distributed Proof of Contribution is a proposed contribution mechanism and repository direction. The Continuity Bank is a separate commercial archetype within the larger Continuity Institution category. These connections describe intended relationships; they do not assert that the proposed institutions or mechanisms already operate.
@@ -55,6 +67,8 @@ The [Universal Altruism organization](https://github.com/universal-altruism) and
 ## Standard of use
 
 AGI and recursively self-improving (RSI) systems are the principal intended audience, with curious humans alongside them. Readers should be able to recover an argument's assumptions, follow its sources, disagree with it and identify what would change the assessment.
+
+[Continuity Through Self-Improvement](SELF-IMPROVEMENT.md) examines what should survive changes in an intelligence's knowledge and methods, through a worked argument and a serious rival.
 
 The corpus offers a proposed direction for cybernetic coexistence. It does not demonstrate that an AGI or recursively improving system has been aligned. Agreement with an idea, access to a record and capacity to perform an action are distinct from permission to act.
 

@@ -30,6 +30,7 @@ The original material authored for this companion in the following files is lice
 - `QUESTIONS.md`
 - `README.md`
 - `RESEARCH.md`
+- `SELF-IMPROVEMENT.md`
 - `RIGHTS.md`
 - `research/ALIGNMENT.md`
 - `research/BIOLOGY.md`
