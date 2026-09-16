@@ -37,6 +37,39 @@ Three years later, Mara wants to move the archive from one provider to another. 
 
 The bytes moved. The usable undertaking moved only partly.
 
+```mermaid
+flowchart LR
+    subgraph B[Before the provider change]
+        D[Documents]
+        C[Disputed annotation]
+        P[Old permission settings]
+        A[Agent access through old provider]
+    end
+    subgraph N[At the new provider]
+        D2[Files readable]
+        C2[Interpretation unresolved]
+        P2[Restrictions still apply<br/>Settings not understood]
+        A2[New mandate not established<br/>by former access]
+    end
+    D -->|transferred| D2
+    C -. not recovered .-> C2
+    P -. no usable translation .-> P2
+    A -. no automatic authority .-> A2
+    F[Funds held elsewhere] -. separate availability check .-> F2[Resources not accessible<br/>through file transfer]
+    style B fill:transparent,stroke:#869099
+    style N fill:transparent,stroke:#869099
+    classDef record fill:#F2E9D8,stroke:#25231F,color:#25231F,stroke-width:1.5px;
+    classDef unresolved fill:#A94E32,stroke:#25231F,color:#F2E9D8,stroke-width:2px;
+    classDef authority fill:#153D40,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef resource fill:#406C90,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    class D,D2,C record;
+    class C2 unresolved;
+    class P,P2,A,A2 authority;
+    class F,F2 resource;
+```
+
+The solid arrow shows the successful document transfer. Dotted arrows show dependencies that transfer did not resolve. In this fictional example, readable files do not settle meaning, permissions, agent authority or resource availability. Independent people and their rights are not assets being transferred. This is a map of the problem, not an implemented transfer protocol.
+
 This exposes several distinct continuity requirements. The recipient needs enough context to distinguish the original promise from a later proposal. Restrictions on Ivo's material need an intelligible treatment. The agent's former ability to act through one provider does not establish a new mandate at the other. The existence and availability of resources must be checked separately from file custody. A history of previous decisions can support interpretation without automatically granting the replacement provider authority to settle disputes.
 
 A credible transfer would therefore need to demonstrate what became usable, what remains unavailable, which authorities require renewal, and who bears responsibility for unresolved dependencies. These are questions for service design and evaluation. They are not a claim that a universal transfer format or reliable exit mechanism has already been built.

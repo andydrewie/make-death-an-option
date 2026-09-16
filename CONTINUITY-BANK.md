@@ -6,6 +6,21 @@ The Continuity Bank is a proposed commercial archetype within the broader Contin
 
 The long-range ambition is preservation and compounding of intelligible context, legitimate agency, useful capability and viable future paths. A revenue-generating service could help build that capacity. Revenue alone would not establish that the institution serves worthwhile lives or protects the freedom to leave.
 
+```mermaid
+flowchart TB
+    I["Continuity Institution<br/>Proposed institutional category"] -->|would preserve and develop| N["Continuity network<br/>The connected object of the work"]
+    I -->|one proposed commercial archetype| B[Continuity Bank]
+    B -->|one service hypothesis| D["Portable continuity dossier<br/>Not the limit of the ambition"]
+    classDef category fill:#153D40,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef network fill:#406C90,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef hypothesis fill:#F2E9D8,stroke:#25231F,color:#25231F,stroke-width:1.5px;
+    class I,B category;
+    class N network;
+    class D hypothesis;
+```
+
+This is a map of scope, not a product roadmap: the network is the object, the institution is the category, the Bank is a commercial archetype, and the dossier is one hypothesis. People and relationships retain their own rights. All proposed services remain at research and feasibility stage.
+
 ## A possible first useful service
 
 One hypothesis is a portable continuity dossier for a long-lived project. A project steward and a nominated collaborator could use it to locate current records, understand important decisions, identify missing context and distinguish a proposed action from an authorized one. The dossier would be designed to remain intelligible after export or a change of provider.

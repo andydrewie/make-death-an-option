@@ -28,6 +28,40 @@ The branch needs an unmistakable counterfactual identity when entered, revisited
 
 **What remains unresolved:** whether the exercise helps Mara reason better or introduces misleading familiarity. A visible label is a proposed safeguard, not evidence that confusion has been eliminated.
 
+**One evening, different kinds of knowledge**
+
+```mermaid
+flowchart TB
+    subgraph R[Replay: preserve the disagreement]
+        direction LR
+        P["Photograph appears to place<br/>the handover before the music change"] --> U["Order unresolved<br/>Clocks were not synchronized"]
+        M["Ivo recalls the handover<br/>after the music change"] --> U
+    end
+    subgraph O[Observer: preserve when knowledge arose]
+        direction LR
+        C["Contributed photograph<br/>Evidence from the concert"] -->|examined years later| L["New interpretation of a difficulty<br/>Not earlier awareness or settled fact"]
+    end
+    subgraph A[Arcade: preserve the invented origin]
+        direction LR
+        S["Simulated shorter promise<br/>and fictional audience response"] --> X["Counterfactual branch<br/>Not historical consent or testimony"]
+    end
+    R ~~~ O
+    O ~~~ A
+    style R fill:transparent,stroke:#869099
+    style O fill:transparent,stroke:#869099
+    style A fill:transparent,stroke:#869099
+    classDef record fill:#F2E9D8,stroke:#25231F,color:#25231F,stroke-width:1.5px;
+    classDef interpretation fill:#153D40,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    classDef unresolved fill:#A94E32,stroke:#25231F,color:#F2E9D8,stroke-width:2px;
+    classDef imagined fill:#406C90,stroke:#25231F,color:#F2E9D8,stroke-width:1.5px;
+    class P,M,C record;
+    class U unresolved;
+    class L interpretation;
+    class S,X imagined;
+```
+
+In words: conflicting accounts remain unresolved; later interpretation stays later; invention keeps its counterfactual identity. These are three views of a fictional case, not successive levels of accuracy or implemented modes. Ivo's withheld passage remains unavailable. None of the views supplies permission to inspect it.
+
 ## 4. A later self wants a different life
 
 Two years after the concert, Mara no longer wants to teach. Changing that preference is part of having a life that develops. Participants nevertheless planned around her five-year promise, and the initial funding has run out.
