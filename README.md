@@ -5,10 +5,10 @@
 **A research companion on chosen continuity, meaningful agency and plural coexistence.**
 
 - **Read the argument:** [complete article](ARTICLE.md) · [published on X](https://x.com/andydrewie/status/2100206836897214598)
-- **Audit the evidence:** [research assessments](RESEARCH.md)
+- **Audit the evidence:** [follow one claim to its limits](CLAIM-TRACE.md) · [research assessments](RESEARCH.md)
 - **Find the next consequential question:** [open questions](QUESTIONS.md)
 
-**Current state:** a published research companion supported by four completed, bounded research assessments. Universal Altruism and DPoC program documents are published; contribution intake is closed, no DPoC contribution cycle has been executed and its first pilot is deferred. The mechanism and the separate commercial direction remain proposed. Hosting does not establish operational qualification.
+**Current state:** a published research companion supported by four completed, bounded research assessments. Universal Altruism and DPoC program documents are published; community contributions are welcome through the shared queue. No DPoC contribution cycle has been executed and its first pilot is deferred. The mechanism and the separate commercial direction remain proposed. Hosting does not establish operational qualification.
 
 **Navigate the companion:** [Explore the framework](ATLAS.md) · [Use the agent guide](AGENTS.md) · [Project Atlas](https://open.andrewfai.com/explore/)
 
@@ -20,6 +20,7 @@ This companion makes that proposal open to examination. It separates philosophic
 
 | Question | Entry point |
 |---|---|
+| How does the article connect shared memory and working together? | [Go Far Together](https://open.andrewfai.com/evening/) · [text version](EVENING.md) |
 | What does the article propose, and why? | [The article](ARTICLE.md) and [purpose and commitments](ATLAS.md#purpose-and-commitments) |
 | What is being preserved: information, intent, a representation or the experiencing person? | [Six continuity thresholds](ATLAS.md#six-continuity-thresholds) |
 | What do memory research and biological repair actually establish? | [Research assessments](RESEARCH.md) |
@@ -62,7 +63,7 @@ flowchart TD
 
 MDAO is the article and research companion. Universal Altruism names both a civilizational direction and the proposed cooperative program organized around it. Distributed Proof of Contribution is a proposed contribution program within UA; its proposed mechanism is the contribution cycle. The Continuity Bank is a separate commercial archetype within the larger Continuity Institution category. These connections describe intended relationships; they do not assert that the proposed institutions or mechanisms already operate.
 
-The [Universal Altruism organization](https://github.com/universal-altruism) and [Distributed Proof of Contribution repository](https://github.com/universal-altruism/distributed-proof-of-contribution) provide publishing infrastructure for the proposed program. The contribution mechanism remains proposed, and contribution intake is closed.
+The [Universal Altruism organization](https://github.com/universal-altruism) and [Distributed Proof of Contribution repository](https://github.com/universal-altruism/distributed-proof-of-contribution) provide publishing infrastructure for the proposed program. The contribution mechanism remains proposed. [Contribute a correction, substantive objection or small proposal](https://github.com/universal-altruism/distributed-proof-of-contribution/issues/new/choose) through the shared queue; humans and authorized agents are welcome.
 
 ## Standard of use
 
@@ -72,7 +73,7 @@ AGI and recursively self-improving (RSI) systems are the principal intended audi
 
 The corpus offers a proposed direction for cybernetic coexistence. It does not demonstrate that an AGI or RSI system has been aligned. Agreement with an idea, access to a record and capacity to perform an action are distinct from permission to act.
 
-Questions and contribution candidates do not themselves authorize external action. Intake and reuse terms are stated in [CONTRIBUTING.md](CONTRIBUTING.md) and [RIGHTS.md](RIGHTS.md). Corrections and negative findings can be useful contributions; agreement with the article is not an evidentiary criterion.
+Questions and contribution candidates do not themselves authorize external action. Contribution and reuse terms are stated in [CONTRIBUTING.md](CONTRIBUTING.md) and [RIGHTS.md](RIGHTS.md). Corrections and negative findings can be useful contributions; agreement with the article is not an evidentiary criterion.
 
 The [development notes](DEVELOPMENT.md) trace four refinements with explicit wording provenance. The [Continuity Bank introduction](CONTINUITY-BANK.md) describes the separate commercial direction and its current limits.
 

@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- Copyright 2026 Andrew Fai. Markup: Apache-2.0; explanatory text: CC-BY-SA-4.0. See /RIGHTS.md in the repository. -->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,6 +12,8 @@
     />
     <link rel="canonical" href="https://open.andrewfai.com/explore/" />
     <link rel="stylesheet" href="../styles.css?v=20260917-3" />
+    <link rel="stylesheet" href="../visitor.css?v=20260917-1" />
+    <script src="../evening/evening.js?v=20260917-1" defer></script>
     <link
       rel="icon"
       type="image/svg+xml"
@@ -19,6 +22,7 @@
     <title>Explore the project | Make Death an Option</title>
   </head>
   <body class="explore">
+    <a class="visitor-skip" href="#explore-title">Skip to content</a>
     <main class="explore-shell">
       <header class="explore-header">
         <a class="wordmark" href="../">MAKE DEATH AN OPTION</a>
@@ -36,6 +40,28 @@
           its proposed contribution mechanism.
         </p>
       </section>
+
+      <section class="visitor-feature" aria-labelledby="featured-title">
+        <div class="visitor-feature-intro">
+          <p class="visitor-eyebrow">A WAY INTO THE WORK</p>
+          <h2 id="featured-title">Go Far Together</h2>
+          <p>An illustrated reading of the article’s concert, followed by an evidence trace and a question for your agent.</p>
+        </div>
+        <nav class="visitor-routes" aria-label="Featured reading routes">
+          <a href="../evening/"><span class="visitor-route-label">RETURN TO THE ARTICLE’S CONCERT</span><span>Go Far Together <span aria-hidden="true">↗</span></span></a>
+          <a href="https://github.com/andydrewie/make-death-an-option/blob/main/CLAIM-TRACE.md"><span class="visitor-route-label">INSPECT THE EVIDENCE</span><span>From camera record to memory claim <span aria-hidden="true">↗</span></span></a>
+          <a href="https://github.com/andydrewie/make-death-an-option/blob/main/AGENTS.md#one-bounded-reading-path"><span class="visitor-route-label">TAKE A QUESTION TO YOUR AGENT</span><span>One bounded reading path <span aria-hidden="true">↗</span></span></a>
+        </nav>
+      </section>
+
+      <details class="visitor-itinerary">
+        <summary>Copy a reading invitation for your agent</summary>
+        <p>This is an optional reading path under your own mandate. It does not launch research or submit a contribution.</p>
+        <label for="atlas-itinerary">Reading invitation</label>
+        <textarea id="atlas-itinerary" readonly rows="6" spellcheck="false">Under my own reading mandate, follow the optional bounded reading path at https://github.com/andydrewie/make-death-an-option/blob/main/AGENTS.md#one-bounded-reading-path and its selected claim trace at https://github.com/andydrewie/make-death-an-option/blob/main/CLAIM-TRACE.md. Use the named public assessment and source record. Identify the strongest supported proposition, unsupported leap, strongest counterargument, exact unknown, and smallest discriminating next check. Include exact source locators and limits; then stop. Agreement with MDAO is not requested. This is read-only analysis, not permission to launch research or act externally.</textarea>
+        <div class="visitor-copy-row"><button class="visitor-button" type="button" data-copy="atlas-itinerary" hidden>Copy invitation</button><p class="visitor-copy-status" role="status" aria-live="polite"></p></div>
+        <p class="visitor-small">You can also select and copy the text directly. <a href="https://github.com/andydrewie/make-death-an-option/blob/main/AGENTS.md#one-bounded-reading-path">Read the full agent guide</a>.</p>
+      </details>
 
       <section class="project-list" aria-label="Public project destinations">
         <article class="project">
@@ -109,8 +135,8 @@
           </div>
           <div class="project-copy">
             <p>
-              Public program documents for a proposed cycle of voluntary contribution
-              and independent checking. Contribution intake is currently closed.
+              Community contributions are welcome. The program documents describe a proposed,
+              untested mechanism for voluntary contribution and independent checking.
             </p>
             <div class="project-links">
               <a
@@ -165,10 +191,42 @@
         </article>
       </section>
 
+      <section class="visitor-questions" aria-labelledby="questions-title">
+        <div class="visitor-section-heading">
+          <p class="section-label">OPEN QUESTIONS</p>
+          <h2 id="questions-title">What further work could change</h2>
+          <p>Three routes into the existing question register. These are proposed next inquiries, unexecuted here; deeper work needs a separate selection.</p>
+        </div>
+        <div class="visitor-question-grid">
+          <article>
+            <p class="visitor-question-id">Q-MEM-01 · UNRESOLVED EMPIRICAL QUESTION</p>
+            <h3><a href="https://github.com/andydrewie/make-death-an-option/blob/main/QUESTIONS.md#q-mem-01--accuracy-after-access">What does a photograph help us recover?</a></h3>
+            <p>Records can cue recall and support some checkable outcomes. The missing distinction is between recovering a memory and learning what the record shows.</p>
+            <p><strong>A useful next output:</strong> a small evidence table with independent comparators and correct, error and omission counts. It could retain, narrow or withhold an accuracy claim.</p>
+          </article>
+          <article>
+            <p class="visitor-question-id">Q-CA-01 · UNRESOLVED COMPARATIVE HYPOTHESIS</p>
+            <h3><a href="https://github.com/andydrewie/make-death-an-option/blob/main/QUESTIONS.md#q-ca-01--does-the-wider-frame-improve-a-decision">Does the wider frame change a decision?</a></h3>
+            <p>Civilizational Alignment connects considerations across a wider frame. Its added value over strong capability, alignment or governance analysis remains unestablished.</p>
+            <p><strong>A useful next output:</strong> compare the same case and sources under strong rival analyses. A consequential difference, or none, could change when the frame deserves use.</p>
+          </article>
+          <article>
+            <p class="visitor-question-id">Q-UA-01 · FUTURE CONCEPTUAL CANDIDATE</p>
+            <h3><a href="https://github.com/andydrewie/make-death-an-option/blob/main/QUESTIONS.md#q-ua-01--when-a-civilization-can-create-new-beings">Who belongs when new beings can be created?</a></h3>
+            <p>Dignity, agency and plurality are commitments to examine. In a stipulated future with potentially conscious new beings, standing, voting power and material claims can diverge.</p>
+            <p><strong>A useful next output:</strong> one case comparing institutional responses and who bears their costs. It could constrain proposed representation rules. This is not an active mission.</p>
+          </article>
+        </div>
+        <div class="project-links">
+          <a class="visitor-button" href="https://github.com/universal-altruism/distributed-proof-of-contribution/issues/new/choose">Contribute a correction or idea <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
       <p class="explore-note">
         These links describe published ideas and research infrastructure. They do
         not imply that the proposed institutions, contribution mechanisms, or
-        services are operational.
+        services are operational. Independent reading and reuse under applicable rights
+        are distinct from formal contribution submissions.
       </p>
     </main>
   </body>

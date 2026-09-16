@@ -4,6 +4,11 @@
   "notice": "RIGHTS.md",
   "files": [
     {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original contribution-template text; no license of submitted third-party material."
+    },
+    {
       "path": "AGENTS.md",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
@@ -20,6 +25,11 @@
     },
     {
       "path": "CASES.md",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "CLAIM-TRACE.md",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
     },
@@ -42,6 +52,11 @@
       "path": "DEVELOPMENT.md",
       "license": "CC-BY-SA-4.0",
       "scope": "Original narration and rights held in four explicitly attributed selected passages; no blanket raw-conversation license."
+    },
+    {
+      "path": "EVENING.md",
+      "license": "LicenseRef-MDAO-Visitor-Mixed",
+      "scope": "Original navigation and explanation: CC-BY-SA-4.0. Attributed article excerpts: CC-BY-ND-4.0. See RIGHTS.md."
     },
     {
       "path": "FRONTIERS.md",
@@ -102,6 +117,36 @@
       "path": "docs/assets/mdao-cover.png",
       "license": "LicenseRef-MDAO-Cover-Permission",
       "scope": "Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
+    },
+    {
+      "path": "docs/assets/shared-evening.png",
+      "license": "CC-BY-SA-4.0",
+      "scope": "AI-generated, human-directed abstract illustration; only rights held, no exclusive copyright claim in AI-generated elements. Not evidence."
+    },
+    {
+      "path": "docs/evening/LICENSE.txt",
+      "license": "Apache-2.0",
+      "scope": "Unmodified standard license text; exact software scope stated in RIGHTS.md."
+    },
+    {
+      "path": "docs/evening/evening.js",
+      "license": "Apache-2.0",
+      "scope": "First-party software only; license text in docs/evening/LICENSE.txt."
+    },
+    {
+      "path": "docs/evening/index.html",
+      "license": "LicenseRef-MDAO-Visitor-Mixed",
+      "scope": "Original explanatory text: CC-BY-SA-4.0. First-party markup: Apache-2.0. Attributed article excerpts: CC-BY-ND-4.0. Artwork and third-party material retain separate terms; see RIGHTS.md."
+    },
+    {
+      "path": "docs/explore/index.html",
+      "license": "LicenseRef-MDAO-Visitor-Mixed",
+      "scope": "Original explanatory text: CC-BY-SA-4.0. First-party markup: Apache-2.0. Attributed article excerpts: CC-BY-ND-4.0. Artwork and third-party material retain separate terms; see RIGHTS.md."
+    },
+    {
+      "path": "docs/visitor.css",
+      "license": "Apache-2.0",
+      "scope": "First-party software only; license text in docs/evening/LICENSE.txt."
     },
     {
       "path": "research/ALIGNMENT.md",

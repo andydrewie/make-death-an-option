@@ -1,6 +1,6 @@
 # Questions worth resolving
 
-These questions arise from the bounded assessments and the article's proposed institutions. They are research directions, not findings or permission to launch work. IDs remain stable when wording is clarified. Current outside intake is described in [CONTRIBUTING.md](CONTRIBUTING.md).
+These questions arise from the bounded assessments and the article's proposed institutions. They are research directions, not findings or permission to launch work. IDs remain stable when wording is clarified. Current contribution routes are described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Q-MEM-01 · Accuracy after access
 
@@ -120,7 +120,7 @@ The [frontier map](FRONTIERS.md) preserves grounded and breakthrough ambitions a
 
 ## Three concrete contribution candidates
 
-All three are **prepared candidates; not open assignments**. Proposed accountable decision owner: the MDAO companion maintainer. Independent checking capacity and applicable rights must be established before intake. Neither credit nor a question grants authority over people, data or external systems.
+All three are **prepared candidates; not commissioned assignments**. [Propose a bounded contribution](https://github.com/universal-altruism/distributed-proof-of-contribution/issues/new/choose) before asking maintainers to commit substantial review. The MDAO companion maintainer is accountable for disposition; substantive evidence changes need appropriate checking and applicable rights. Opening proposals does not execute these candidates or the deferred DPoC pilot. Neither credit nor a question grants authority over people, data or external systems.
 
 | Candidate | Public starting point | Missing discriminator and expected contribution | Useful decision |
 |---|---|---|---|

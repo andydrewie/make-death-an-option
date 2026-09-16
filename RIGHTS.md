@@ -18,12 +18,15 @@ The attribution notice sits outside `ARTICLE.md`; the current article prose is u
 
 The original material authored for this companion in the following files is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/):
 
+- `.github/PULL_REQUEST_TEMPLATE.md`
 - `AGENTS.md`
 - `ATLAS.md`
 - `CASES.md`
+- `CLAIM-TRACE.md`
 - `CONTINUITY-NETWORKS.md`
 - `CONTRIBUTING.md`
 - `DEVELOPMENT.md` (with the excerpt qualifications below)
+- `EVENING.md`
 - `FRONTIERS.md`
 - `OBJECTIONS.md`
 - `PUBLICATION.md`
@@ -66,6 +69,12 @@ Private conversations, correspondence, prompts, internal production files, unpub
 
 Canonical editorial acceptance is separate from copyright reuse. Receipt is separate from contribution acceptance. A Creative Commons license is an irrevocable public copyright license for recipients who comply with its terms; it is not a revocable operational authorization. The licensor may stop distributing material or offer it under separate terms without terminating an existing CC 4.0 license.
 
-No software is licensed by this page. Deliberately selected future public software should carry its own Apache License 2.0 file and applicable notices after its dependencies and third-party terms are checked.
+## Visitor experience: text, artwork and code
+
+The original explanatory text on `docs/explore/index.html` and `docs/evening/index.html` is designated CC BY-SA 4.0 under the companion terms above. This designation covers original explanatory text. Clearly attributed excerpts from ARTICLE.md retain its separate CC BY-ND 4.0 terms, including in EVENING.md; linked third-party works retain their own rights.
+
+`docs/assets/shared-evening.png` is an AI-generated, human-directed abstract illustration, not a captured record or scientific evidence. To the extent Andrew Fai holds the necessary rights, it is designated CC BY-SA 4.0. No exclusive copyright in AI-generated elements or rights beyond those held are asserted. Suggested attribution: “Overlapping perspectives,” MDAO Companion / Andrew Fai, 2026; AI-generated illustration; CC BY-SA 4.0 to the extent rights held. This does not change the separate cover or organization identity-artwork permissions.
+
+The first-party markup in `docs/explore/index.html` and `docs/evening/index.html`, the interaction code in `docs/evening/evening.js`, and styles in `docs/visitor.css` are designated under [Apache License 2.0](docs/evening/LICENSE.txt), following the existing public-software policy. Explanatory text and artwork retain their separate terms above. These additions use native browser features and no third-party software dependencies. The existing shared `docs/styles.css` and unlisted site files are not newly licensed by this designation. No repository-wide software license or operational authority is created.
 
 The exact material categories are also recorded in [RIGHTS-MAP.json](RIGHTS-MAP.json). This notice is an explanation and designation, not a modification of the linked standard licenses.
