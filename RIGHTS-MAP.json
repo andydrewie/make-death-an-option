@@ -119,6 +119,16 @@
       "scope": "Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
     },
     {
+      "path": "docs/assets/mdao-social-v1.jpg",
+      "license": "LicenseRef-MDAO-Cover-Permission",
+      "scope": "Technical JPEG export for link previews, retaining the complete composition. Only rights held; article-related reproduction/display and necessary technical changes; third-party marks excluded."
+    },
+    {
+      "path": "docs/assets/shared-evening-social-v1.jpg",
+      "license": "CC-BY-SA-4.0",
+      "scope": "Technical JPEG export for link previews, retaining the complete composition. AI-generated, human-directed abstract illustration; only rights held, no exclusive copyright claim in AI-generated elements. Not evidence."
+    },
+    {
       "path": "docs/assets/shared-evening.png",
       "license": "CC-BY-SA-4.0",
       "scope": "AI-generated, human-directed abstract illustration; only rights held, no exclusive copyright claim in AI-generated elements. Not evidence."

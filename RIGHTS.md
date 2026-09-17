@@ -78,3 +78,9 @@ The original explanatory text on `docs/explore/index.html` and `docs/evening/ind
 The first-party markup in `docs/explore/index.html` and `docs/evening/index.html`, the interaction code in `docs/evening/evening.js`, and styles in `docs/visitor.css` are designated under [Apache License 2.0](docs/evening/LICENSE.txt), following the existing public-software policy. Explanatory text and artwork retain their separate terms above. These additions use native browser features and no third-party software dependencies. The existing shared `docs/styles.css` and unlisted site files are not newly licensed by this designation. No repository-wide software license or operational authority is created.
 
 The exact material categories are also recorded in [RIGHTS-MAP.json](RIGHTS-MAP.json). This notice is an explanation and designation, not a modification of the linked standard licenses.
+
+## Social preview exports
+
+`docs/assets/mdao-social-v1.jpg` is a smaller JPEG export of the official cover, with its complete composition retained. It carries the same limited article-related reproduction/display permission as `assets/mdao-cover.png`; third-party marks remain excluded.
+
+`docs/assets/shared-evening-social-v1.jpg` is a smaller JPEG export of `docs/assets/shared-evening.png`, with its complete composition retained. It carries the same CC BY-SA 4.0 designation to the extent of rights held. Neither export is new artwork or event evidence. Original source images remain unchanged.
