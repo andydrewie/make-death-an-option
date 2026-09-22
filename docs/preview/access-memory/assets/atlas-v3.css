@@ -44,7 +44,7 @@
 .continuation-columns p{font-size:19px;line-height:1.65;max-width:48ch;color:var(--ink)}
 .continuation-columns em{font-family:var(--serif)}
 .continuation-bridge .continuation-limit{font-size:14px;line-height:1.7;color:var(--muted);max-width:85ch;margin:6px 0 18px}
-.continuation-bridge>.article-invitation{scroll-margin-top:145px;display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:600;line-height:1.5;min-height:44px;color:var(--rust);text-decoration:none;border:0}.continuation-bridge>.article-invitation:hover{text-decoration:underline}
+.continuation-bridge>.article-invitation{scroll-margin-top:145px}
 @media(max-width:640px){.atlas-opening h1 br,.continuation-bridge h2 br{display:none}.continuation-bridge{padding-top:38px}.continuation-bridge h2{font-size:36px;margin-bottom:24px}.continuation-columns{grid-template-columns:1fr;gap:5px}.continuation-columns p{font-size:17px}.continuation-bridge .continuation-limit{font-size:13px}.atlas-concert p.concert-source{font-size:11px}}
 /* Keep controls with the invitation; give the shared scene its own entrance. */
 .memory-entry-copy .atlas-prompt{padding:0;margin:4px 0 10px;border-top:0}
