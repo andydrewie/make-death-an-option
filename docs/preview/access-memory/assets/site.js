@@ -12,6 +12,8 @@ for (const button of document.querySelectorAll('[data-copy]')) {
       await navigator.clipboard.writeText(field.value);
       status.textContent = 'Invitation copied. Paste it into your agent.';
     } catch {
+      const disclosure = field.closest('details');
+      if (disclosure) disclosure.open = true;
       field.focus();
       field.select();
       field.setSelectionRange(0, field.value.length);
@@ -37,3 +39,16 @@ for (const button of document.querySelectorAll('[data-start]')) {
 
 const contents = document.querySelector('.reader-toc details');
 if (contents && window.matchMedia('(max-width: 760px)').matches) contents.open = false;
+
+// A linked example should open its actual reflection, not land on a closed row.
+function openLinkedExample() {
+  let id;
+  try { id = decodeURIComponent(window.location.hash.slice(1)); } catch { return; }
+  const example = document.getElementById(id);
+  if (example instanceof HTMLDetailsElement && example.classList.contains('example')) {
+    example.open = true;
+    requestAnimationFrame(() => example.scrollIntoView({block: 'start'}));
+  }
+}
+openLinkedExample();
+window.addEventListener('hashchange', openLinkedExample);

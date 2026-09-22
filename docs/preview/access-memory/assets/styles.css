@@ -21,3 +21,6 @@
 @media(max-width:760px){.example-body{padding-left:0}.example-output{font:18px/1.75 var(--serif);padding:23px 19px}.memory-record{font-size:11px;line-height:1.8}.article-section+.article-section{margin-top:63px}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 @media print{.preview-strip,.site-header,.site-footer,.reader-toc,.reader-controls,.reader-afterword,.skip-link{display:none!important}.wrap{width:100%;max-width:none}.reader-heading{margin:0 0 2rem}.reader-layout{display:block}.article-content{font-size:11pt;line-height:1.5}.article-content h2{font-size:18pt;break-after:avoid}.article-content a{text-decoration:none}.evening-record::details-content{display:block}}
+/* One home wordmark; three distinct routes across the subpages. */
+.site-nav a{min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:640px){.site-header{flex-direction:column;align-items:flex-start;gap:8px;padding:15px 0 8px}.site-header .wordmark{max-width:none;font-size:11px;min-height:30px;display:flex;align-items:center;gap:.4em}.site-header .wordmark span{display:inline}.site-nav{width:100%;justify-content:space-between;gap:16px}.site-nav a{font-size:13px;min-height:44px;padding:8px 0}}
