@@ -1,0 +1,206 @@
+/* Copyright 2026 Andrew Fai. SPDX-License-Identifier: Apache-2.0 */
+/* Additive styles for the Atlas routes and illustrated article reading. */
+.explore, .evening { min-width: 0; }
+.visitor-skip {
+  position: fixed;
+  z-index: 10;
+  top: 0.75rem;
+  left: 1rem;
+  padding: 0.75rem 1rem;
+  transform: translateY(-200%);
+  background: var(--black);
+  color: var(--paper);
+}
+.visitor-skip:focus { transform: translateY(0); }
+.explore a:focus-visible,
+.evening a:focus-visible,
+.visitor-itinerary summary:focus-visible,
+.evening-record summary:focus-visible,
+.visitor-button:focus-visible,
+.visitor-itinerary textarea:focus-visible {
+  outline: 3px solid #a43a21;
+  outline-offset: 5px;
+}
+.explore .explore-intro { padding-block: clamp(2.5rem, 5vw, 4rem); }
+.visitor-feature {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: clamp(2rem, 5vw, 5rem);
+  padding: clamp(1.5rem, 3.5vw, 3rem);
+  background: #211b17;
+  color: var(--paper);
+}
+.visitor-eyebrow,
+.visitor-route-label,
+.visitor-question-id,
+.evening-provenance dt,
+.evening-invention,
+.evening-number {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.75rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+}
+.visitor-eyebrow { margin: 0 0 1rem; color: #e7a68b; }
+.visitor-feature h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+}
+.visitor-feature-intro > p:last-child { max-width: 33rem; margin-bottom: 0; color: #d8d2c8; font-size: 1rem; }
+.visitor-routes { display: grid; align-content: center; }
+.visitor-routes a { padding: 1rem 0; text-decoration: none; border-bottom: 1px solid #75685d; }
+.visitor-routes a:first-child { padding-top: 0; }
+.visitor-routes a:last-child { border-bottom: 0; }
+.visitor-route-label { display: block; color: #e7a68b; margin-bottom: 0.25rem; }
+.visitor-routes a > span:last-child { display: block; font-size: 1.2rem; font-weight: 650; }
+.visitor-routes a:hover > span:last-child { text-decoration: underline; text-underline-offset: 0.25em; }
+.visitor-feature a:focus-visible { outline-color: #e7a68b; }
+.visitor-itinerary { margin: 1rem 0 3rem; border-block: 1px solid #aaa399; }
+.visitor-itinerary summary { min-height: 44px; padding: 1rem 0; cursor: pointer; font-size: 1rem; font-weight: 650; }
+.visitor-itinerary > p { max-width: 65rem; font-size: 1rem; }
+.visitor-itinerary label { display: block; font-size: 0.9rem; font-weight: 650; margin-bottom: 0.5rem; }
+.visitor-itinerary textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-height: 10rem;
+  padding: 1rem;
+  border: 1px solid #81786d;
+  border-radius: 0;
+  background: #fffcf5;
+  color: #211b17;
+  font: 0.95rem/1.6 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  resize: vertical;
+}
+.visitor-copy-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.75rem 1rem; margin-block: 1rem; }
+.visitor-copy-status { margin: 0; font-size: 0.95rem; }
+.visitor-button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.85rem 1.15rem;
+  border: 1px solid var(--rust-dark);
+  border-radius: 0;
+  background: var(--rust-dark);
+  color: var(--paper);
+  font: 650 1rem/1.35 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.visitor-button:hover { background: #541b10; }
+.visitor-button[hidden] { display: none; }
+.visitor-small { color: #5a5149; font-size: 0.875rem; line-height: 1.6; }
+.visitor-questions { margin-top: clamp(3rem, 6vw, 6rem); }
+.visitor-section-heading { max-width: 47rem; }
+.visitor-section-heading .section-label { margin-bottom: 0.8rem; }
+.visitor-section-heading h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.05; letter-spacing: -0.045em; }
+.visitor-section-heading > p:last-child { color: #514940; font-size: 1rem; }
+.visitor-question-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; margin-top: 2rem; }
+.visitor-question-grid article { border-top: 2px solid var(--rust-dark); padding-top: 1rem; }
+.visitor-question-id { color: #6b2c1d; margin-top: 0; }
+.visitor-question-grid h3 { font-size: 1.45rem; line-height: 1.2; letter-spacing: -0.025em; }
+.visitor-question-grid h3 a { text-decoration-thickness: 1px; text-underline-offset: 0.2em; }
+.visitor-question-grid article > p:not(.visitor-question-id) { font-size: 1rem; color: #40382f; }
+
+/* The evening is a small reading experience. Native details provide its reveals. */
+.evening { color-scheme: light; background: var(--paper); color: #211b17; }
+.evening-shell { width: var(--page); max-width: 82rem; margin: 0 auto; padding-block: clamp(2rem, 5vw, 4.5rem) 2rem; }
+.evening-intro { display: grid; grid-template-columns: 1.3fr 1fr; align-items: end; gap: clamp(2rem, 7vw, 7rem); padding-block: clamp(3rem, 6vw, 5rem) 2.5rem; }
+.evening-intro .section-label { margin-bottom: 1.3rem; }
+.evening h1 { margin: 0; font-size: clamp(3.8rem, 7.4vw, 6.9rem); line-height: 0.96; letter-spacing: -0.062em; font-weight: 750; }
+.evening h1 > span { color: var(--rust-dark); }
+.evening-intro-copy { padding-bottom: 0.15rem; }
+.evening-intro-copy > p { color: #51473f; font-size: 1.1rem; }
+.evening-intro-copy .evening-deck { margin-top: 0; color: #211b17; font-size: clamp(1.5rem, 2.5vw, 2rem); line-height: 1.3; letter-spacing: -0.025em; }
+.evening-intro-copy .text-link { display: inline-flex; align-items: center; min-height: 44px; gap: 0.75rem; }
+.evening-fiction { padding: 1rem 1.25rem; border: 1px solid #bbae9c; border-bottom: none; font-size: 0.85rem; line-height: 1.6; background: #eae2d5; }
+.evening-art { margin: 0; }
+.evening-art img { display: block; width: 100%; height: auto; max-height: 34rem; aspect-ratio: 2.5; object-fit: cover; object-position: center; background: #d6bea1; }
+.evening-art figcaption { display: flex; justify-content: space-between; gap: 0.5rem 2rem; flex-wrap: wrap; padding-block: 0.8rem; color: #625343; font-size: 0.8rem; line-height: 1.5; }
+.evening-art figcaption span { font-size: 0.75rem; }
+.evening-views { display: grid; grid-template-columns: 0.7fr 1.6fr; gap: clamp(2rem, 6vw, 6rem); padding-block: clamp(3rem, 6vw, 5rem); scroll-margin-top: 2rem; }
+.evening-margin-note .section-label { margin-bottom: 1rem; }
+.evening-margin-note h2 { font-size: clamp(2rem, 3vw, 3rem); line-height: 1.05; letter-spacing: -0.045em; margin: 0; }
+.evening-margin-note > p { max-width: 22rem; }
+.evening-record { border-top: 1px solid #998977; }
+.evening-record:last-child { border-bottom: 1px solid #998977; }
+.evening-record summary { display: flex; align-items: center; gap: 1rem; min-height: 88px; padding: 1.35rem 0; cursor: pointer; list-style: none; font-size: clamp(1.1rem, 1.8vw, 1.55rem); font-weight: 650; line-height: 1.3; }
+.evening-record summary::-webkit-details-marker { display: none; }
+.evening-number { flex: 0 0 1.5rem; align-self: flex-start; padding-top: 0.3rem; color: var(--rust-dark); }
+.evening-record summary > span:nth-child(2) { flex: 1; }
+.evening-record summary small { display: block; margin-top: 0.4rem; font-size: 0.85rem; font-weight: 400; color: #66594d; }
+.evening-toggle { position: relative; flex: 0 0 1.25rem; width: 1.25rem; height: 1.25rem; }
+.evening-toggle::before,
+.evening-toggle::after { position: absolute; inset: calc(50% - 1px) 0 auto; height: 2px; background: var(--rust-dark); content: ""; }
+.evening-toggle::after { transform: rotate(90deg); }
+.evening-record[open] .evening-toggle::after { display: none; }
+.evening-record-body { padding: 0 0.25rem 1.5rem 2.5rem; font-size: 1.05rem; }
+.evening-record-body > p { max-width: 45rem; }
+.evening-provenance { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0 0 1.25rem; padding: 1rem; background: #eae2d5; }
+.evening-provenance dt { color: var(--rust-dark); text-transform: uppercase; margin-bottom: 0.3rem; }
+.evening-provenance dd { margin: 0; font-size: 0.85rem; line-height: 1.5; }
+.evening-distinction { border-left: 2px solid #a78667; padding-left: 1rem; color: #5a4a3d; font-size: 0.95rem; }
+.evening-invention { margin-top: 0; padding: 0.75rem 1rem; border: 1px dashed #887565; color: #6b2c1d; }
+.evening-afterword { padding-block: clamp(2.5rem, 5vw, 4rem); border-top: 2px solid #211b17; }
+.evening-afterword .section-label { margin-bottom: 1rem; }
+.evening-afterword h2 { margin: 0; max-width: 24ch; font-size: clamp(2.2rem, 4.7vw, 4.25rem); line-height: 1.05; letter-spacing: -0.05em; }
+.evening-afterword-copy { display: block; max-width: 53rem; margin-top: 1.5rem; color: #51473f; }
+/* Quotations remain visibly distinct from navigation and editorial labels. */
+.evening-quotation { margin: 0; padding: 0; border: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.16rem; line-height: 1.65; }
+.evening-quotation p { margin: 0 0 1rem; }
+.evening-quotation p:last-child { margin-bottom: 0; }
+.evening-attribution { margin: 0.9rem 0 1.25rem; color: #6a5848; font-size: 0.78rem; line-height: 1.5; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+.evening-intro-copy .evening-attribution { font-size: 0.78rem; }
+.evening-margin-note .evening-quotation { margin-top: 1.5rem; font-size: 1.08rem; }
+.evening-earlier-passage { margin-top: 1.5rem; padding: 1.1rem 1.25rem; background: #eae2d5; }
+.evening-earlier-passage .evening-quotation { font-size: 1rem; }
+.evening-earlier-passage .evening-attribution { margin-bottom: 0; }
+.evening-passage-label { margin: 0 0 0.9rem; color: #6b2c1d; font-size: 0.8rem; font-weight: 650; }
+.evening-afterword-copy .evening-quotation { font-size: clamp(1.15rem, 1.8vw, 1.4rem); }
+.evening-next { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2rem; margin-top: 2rem; }
+.evening-next .text-link { display: inline-flex; align-items: center; min-height: 44px; font-size: 1rem; }
+.evening-footer { display: flex; align-items: start; justify-content: space-between; gap: 2rem; border-top: 1px solid #aaa399; padding-top: 1.5rem; font-size: 0.85rem; }
+.evening-footer > a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 650; }
+.evening-footer p { max-width: 38rem; margin: 0; color: #625343; }
+
+@media (max-width: 860px) {
+  .visitor-feature { grid-template-columns: 1fr; gap: 1.5rem; }
+  .visitor-routes a:first-child { padding-top: 1rem; border-top: 1px solid #75685d; }
+  .visitor-question-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .visitor-question-grid h3 { margin-block: 0.75rem; }
+  .evening-intro { grid-template-columns: 1fr; gap: 2rem; }
+  .evening h1 { font-size: clamp(3.75rem, 11vw, 6rem); }
+  .evening-intro-copy { max-width: 35rem; }
+  .evening-art img { aspect-ratio: 1.65; }
+  .evening-views { grid-template-columns: 1fr; gap: 1.5rem; }
+  .evening-margin-note > p { max-width: 35rem; }
+  .evening-margin-note h2 br { display: none; }
+  .evening-afterword-copy { grid-template-columns: 1fr; gap: 1rem; }
+  .evening-footer { flex-direction: column; gap: 1rem; }
+}
+@media (max-width: 520px) {
+  .visitor-feature { padding: 1.5rem 1.25rem; }
+  .evening h1 { font-size: clamp(3.3rem, 15.9vw, 4.75rem); }
+  .evening-fiction { padding: 0.85rem 1rem; }
+  .evening-art img { aspect-ratio: 1.35; }
+  .evening-record summary { gap: 0.65rem; }
+  .evening-record-body { padding-left: 0; }
+  .evening-provenance { grid-template-columns: 1fr; gap: 0.75rem; }
+  .evening-record summary small { font-size: 0.8rem; }
+  .visitor-itinerary textarea { font-size: 0.85rem; }
+  .evening-next { align-items: flex-start; flex-direction: column; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.evening), html:has(.explore) { scroll-behavior: auto; }
+}
+@media print {
+  .evening-record::details-content { display: block; }
+  .evening-art img { max-height: 15rem; }
+  .visitor-button[data-copy], .visitor-skip { display: none; }
+}
