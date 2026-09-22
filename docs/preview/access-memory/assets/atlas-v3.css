@@ -20,7 +20,7 @@
 .atlas-refreshed .atlas-concert{margin-top:34px;scroll-margin-top:30px}
 .atlas-concert blockquote{font:italic 25px/1.5 var(--serif);margin:0 0 22px;max-width:28ch}
 .atlas-concert p.concert-source{font:10px/1.6 var(--mono);margin:16px 0 0;color:#d8cfc0}
-.atlas-refreshed .work-entry{margin-top:55px;padding-top:45px}
+.atlas-refreshed .work-entry{margin-top:64px;padding-top:0;border-top:0}
 .work-grid article{scroll-margin-top:30px}
 .atlas-refreshed .program-entry{padding:10px 0 45px}
 .program-list{border-top:1px solid var(--line)}
@@ -29,14 +29,14 @@
 .program-kind{font:10px/1.6 var(--mono);color:var(--rust);margin:0;letter-spacing:.04em}
 .program-list article>p{font-size:16px;color:var(--muted);margin:0;max-width:48ch}
 .program-list .text-link{font-size:14px;white-space:nowrap}
-.atlas-contribution{border-top:1px solid var(--ink);padding:40px 0 0;scroll-margin-top:30px}
+.atlas-contribution{border-top:0;margin-top:64px;padding:0;scroll-margin-top:30px}
 .atlas-contribution h2{font-size:clamp(34px,4vw,50px);max-width:24ch;margin-bottom:20px}
 .atlas-contribution>p:not(.eyebrow){font-size:18px;max-width:57ch;color:var(--muted);margin-bottom:25px}
 .atlas-contribution .btn{background:#953c28;color:#fff8eb;border-color:#953c28;min-height:54px;max-width:100%;line-height:1.5;gap:22px}
 .atlas-contribution .btn:hover{background:#73301f;color:#fff8eb;border-color:#73301f}
 .atlas-contribution .contribution-guide{display:inline-flex;align-items:center;min-height:44px;font-size:14px;margin:8px 0 0 22px}
 @media(max-width:900px){.program-list article{grid-template-columns:1fr 1.2fr;gap:14px 28px}.program-list .text-link{grid-column:2;justify-self:start}}
-@media(max-width:640px){.atlas-refreshed .atlas-concert{margin-top:26px}.atlas-concert blockquote{font-size:23px}.atlas-refreshed .work-entry{margin-top:36px;padding-top:33px}.atlas-refreshed .program-entry{padding:0 0 35px}.program-list article{grid-template-columns:1fr;gap:15px;padding:25px 0}.program-list h3{font-size:26px;max-width:24ch}.program-list article>p{font-size:16px}.program-list .text-link{grid-column:auto;white-space:normal;max-width:100%}.atlas-contribution{padding-top:30px}.atlas-contribution h2{font-size:34px}.atlas-contribution h2 br{display:none}.atlas-contribution>p:not(.eyebrow){font-size:16px}.atlas-contribution .btn{display:flex;width:100%;padding:14px 17px;font-size:15px}.atlas-contribution .contribution-guide{margin:13px 0 0}.atlas-refreshed .site-footer{margin-top:48px}}
+@media(max-width:640px){.atlas-refreshed .atlas-concert{margin-top:26px}.atlas-concert blockquote{font-size:23px}.atlas-refreshed .work-entry{margin-top:48px;padding-top:0}.atlas-refreshed .program-entry{padding:0 0 35px}.program-list article{grid-template-columns:1fr;gap:15px;padding:25px 0}.program-list h3{font-size:26px;max-width:24ch}.program-list article>p{font-size:16px}.program-list .text-link{grid-column:auto;white-space:normal;max-width:100%}.atlas-contribution{margin-top:48px;padding-top:0}.atlas-contribution h2{font-size:34px}.atlas-contribution h2 br{display:none}.atlas-contribution>p:not(.eyebrow){font-size:16px}.atlas-contribution .btn{display:flex;width:100%;padding:14px 17px;font-size:15px}.atlas-contribution .contribution-guide{margin:13px 0 0}.atlas-refreshed .site-footer{margin-top:48px}}
 /* The scroll introduces the article before opening the source directory. */
 .continuation-bridge{padding:60px 0 8px;scroll-margin-top:30px}
 .continuation-bridge h2{font-size:clamp(36px,4.6vw,60px);line-height:1.04;max-width:25ch;margin-bottom:30px}
@@ -44,7 +44,7 @@
 .continuation-columns p{font-size:19px;line-height:1.65;max-width:48ch;color:var(--ink)}
 .continuation-columns em{font-family:var(--serif)}
 .continuation-bridge .continuation-limit{font-size:14px;line-height:1.7;color:var(--muted);max-width:85ch;margin:6px 0 18px}
-.continuation-bridge>.text-link{font-size:16px;min-height:44px}
+.continuation-bridge>.article-invitation{scroll-margin-top:145px;display:inline-flex;align-items:center;gap:12px;font-size:16px;font-weight:600;line-height:1.5;min-height:44px;color:var(--rust);text-decoration:none;border:0}.continuation-bridge>.article-invitation:hover{text-decoration:underline}
 @media(max-width:640px){.atlas-opening h1 br,.continuation-bridge h2 br{display:none}.continuation-bridge{padding-top:38px}.continuation-bridge h2{font-size:36px;margin-bottom:24px}.continuation-columns{grid-template-columns:1fr;gap:5px}.continuation-columns p{font-size:17px}.continuation-bridge .continuation-limit{font-size:13px}.atlas-concert p.concert-source{font-size:11px}}
 /* Keep controls with the invitation; give the shared scene its own entrance. */
 .memory-entry-copy .atlas-prompt{padding:0;margin:4px 0 10px;border-top:0}
@@ -60,3 +60,7 @@
 .atlas-concert>.concert-copy{grid-area:copy;padding:0 40px 40px}
 @media(max-width:900px){.atlas-concert>.concert-heading{padding:28px 28px 0}.atlas-concert>.concert-copy{padding:0 28px 28px}}
 @media(max-width:640px){.memory-entry-art{padding:7px 21px 26px}.memory-entry-art figcaption{font-size:11px}.atlas-refreshed .atlas-concert{margin-top:64px;grid-template-areas:"heading" "art" "copy";grid-template-rows:auto auto auto}.atlas-concert>.concert-heading{padding:30px 23px 24px}.atlas-concert>.concert-heading h2{margin-bottom:0}.atlas-concert>.concert-heading .eyebrow{margin-bottom:15px}.atlas-concert>.concert-copy{padding:28px 23px}}
+
+/* Return to the shared scene after the Atlas, then invite participation. */
+.program-entry+.atlas-concert{margin-top:26px}
+@media(max-width:640px){.atlas-refreshed .program-entry+.atlas-concert{margin-top:24px}}
