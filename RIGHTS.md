@@ -84,3 +84,22 @@ The exact material categories are also recorded in [RIGHTS-MAP.json](RIGHTS-MAP.
 `docs/assets/mdao-social-v1.jpg` is a smaller JPEG export of the official cover, with its complete composition retained. It carries the same limited article-related reproduction/display permission as `assets/mdao-cover.png`; third-party marks remain excluded.
 
 `docs/assets/shared-evening-social-v1.jpg` is a smaller JPEG export of `docs/assets/shared-evening.png`, with its complete composition retained. It carries the same CC BY-SA 4.0 designation to the extent of rights held. Neither export is new artwork or event evidence. Original source images remain unchanged.
+
+## Access Memory additions
+
+The following added files are recorded as `LicenseRef-MDAO-No-Additional-Grant` in the rights map:
+
+- `docs/CREDITS.md`
+- `docs/access-memory/content.json`
+- `docs/access-memory/index.html`
+- `docs/assets/atlas-v3.css`
+- `docs/assets/perception.jpg`
+- `docs/assets/site.js`
+- `docs/assets/styles.css`
+- `docs/for-agents.md`
+
+This designation records that no additional general reuse license is granted for newly supplied material in these files. It does not extend the CC BY-SA or Apache designations of other paths. Material already covered by an existing license keeps that license wherever it is embedded; attributed article excerpts retain CC BY-ND 4.0, and third-party material keeps its separate terms. Applicable legal exceptions and all existing grants remain unchanged.
+
+The public Access Memory invitation may be copied and used with the reader's chosen agent, as the Copy invitation control intends. This narrow permission does not license unrelated page material, example responses, artwork or software for general reuse and grants no authority to retrieve personal data or act for another person. Existing terms for the original explanatory text and first-party markup on `docs/explore/index.html` remain as stated above.
+
+`docs/assets/perception.jpg` is an AI-generated, human-directed illustration, not a photograph, event record, scientific model or representation of a visitor's memory. No additional standalone reuse grant, exclusive copyright in AI-generated elements, or rights beyond those held are asserted.

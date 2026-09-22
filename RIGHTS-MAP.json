@@ -187,6 +187,46 @@
       "path": "research/source-index-memory-biology.json",
       "license": "CC-BY-SA-4.0",
       "scope": "Original project-authored material only; separately identified quotations and third-party material excluded."
+    },
+    {
+      "path": "docs/CREDITS.md",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
+    },
+    {
+      "path": "docs/access-memory/content.json",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions. The public invitation may be copied and used with the reader's chosen agent."
+    },
+    {
+      "path": "docs/access-memory/index.html",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions. The public invitation may be copied and used with the reader's chosen agent."
+    },
+    {
+      "path": "docs/assets/atlas-v3.css",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
+    },
+    {
+      "path": "docs/assets/perception.jpg",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions. AI-generated, human-directed illustration; no additional standalone reuse grant, exclusive copyright claim in AI-generated elements or claim beyond rights held."
+    },
+    {
+      "path": "docs/assets/site.js",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
+    },
+    {
+      "path": "docs/assets/styles.css",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
+    },
+    {
+      "path": "docs/for-agents.md",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
     }
   ],
   "exclusions": [
