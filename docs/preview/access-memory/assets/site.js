@@ -1,17 +1,30 @@
 /* Static preview enhancements. No personal input, storage, or analytics. */
 'use strict';
 
+const invitationCopiedAtMarker = '{{INVITATION_COPIED_AT}}';
+const copyTemplates = new WeakMap();
+
 for (const button of document.querySelectorAll('[data-copy]')) {
   const field = document.getElementById(button.dataset.copy);
   const status = button.parentElement.querySelector('[role="status"]');
   if (!(field instanceof HTMLTextAreaElement) || !status) continue;
+  if (!copyTemplates.has(field)) copyTemplates.set(field, field.value);
   button.hidden = false;
   button.addEventListener('click', async () => {
+    const template = copyTemplates.get(field);
+    const hasCopyTimestamp = template.includes(invitationCopiedAtMarker);
     try {
       if (!navigator.clipboard || !window.isSecureContext) throw new Error('Use direct copy');
-      await navigator.clipboard.writeText(field.value);
+      const copiedText = hasCopyTimestamp
+        ? template.replace(invitationCopiedAtMarker, new Date().toISOString())
+        : field.value;
+      await navigator.clipboard.writeText(copiedText);
+      field.value = copiedText;
       status.textContent = 'Invitation copied. Paste it into your agent.';
     } catch {
+      if (hasCopyTimestamp) {
+        field.value = template.replace(invitationCopiedAtMarker, 'not available (manual copy)');
+      }
       const disclosure = field.closest('details');
       if (disclosure) disclosure.open = true;
       field.focus();
