@@ -227,6 +227,11 @@
       "path": "docs/for-agents.md",
       "license": "LicenseRef-MDAO-No-Additional-Grant",
       "scope": "No additional general reuse grant for newly supplied material. Existing licenses for embedded material, third-party rights and legal exceptions remain unchanged; see RIGHTS.md#access-memory-additions."
+    },
+    {
+      "path": "docs/assets/analytics.js",
+      "license": "LicenseRef-MDAO-No-Additional-Grant",
+      "scope": "First-party aggregate counting integration. No additional general reuse license; existing grants for other files are unchanged. See RIGHTS.md#aggregate-counting-addition."
     }
   ],
   "exclusions": [

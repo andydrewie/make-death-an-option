@@ -22,8 +22,18 @@ The three examples are editorially revised illustrations based on fictional inpu
 
 The sensory orientation references [NASA’s visible-light overview](https://science.nasa.gov/ems/09_visiblelight/), [Health Canada’s hearing overview](https://www.canada.ca/en/health-canada/services/noise-your-health.html), [NLM’s proprioception entry](https://www.ncbi.nlm.nih.gov/mesh/68011434) and [the interoception review indexed in PubMed](https://pubmed.ncbi.nlm.nih.gov/33378654/). Reference ranges describe general human capabilities, not measurements of a visitor’s senses, intelligence or health.
 
-These pages include no embedded model, personal-data submission form or analytics added by these pages. The hosting provider and the visitor's chosen agent retain their own service and privacy practices. The closing `<ACCESS_MEMORY>` marker labels a reflection; it does not perform storage.
+These pages include no embedded model or personal-data submission form. The hosting provider and the visitor's chosen agent retain their own service and privacy practices. The closing `<ACCESS_MEMORY>` marker labels a reflection; it does not perform storage.
+
+## Aggregate analytics
+
+The four public experience pages use [GoatCounter](https://www.goatcounter.com/help/privacy) to count page loads, article and corpus link clicks, successful invitation copies, and the first opening of each example per page load. The dashboard is private. These are aggregate counts, not unique people or individual browsing journeys; reloads and repeated actions can count again. A click does not establish that someone read the article or submitted a contribution.
+
+The counting script sends fixed page and action labels. It does not send memories, reflection or clipboard text, query strings, URL fragments or referrers, and uses no cookies or browser storage. Individual-pageview storage, session tracking, location, browser, screen-size and language statistics are disabled in the analytics account. Hosting and analytics providers necessarily handle network requests under their own privacy practices.
+
+Counting is disabled on previews and local copies, in detected automated browsers, and when the browser signals Global Privacy Control or Do Not Track. Adding `?analytics=off` disables it for that page load. Blocking analytics does not affect navigation or copying. Counts are approximate: blockers, bots, reloads and internal checks can affect them.
 
 ## Access Memory additions
 
 The public invitation may be copied and used with the reader's chosen agent, as the Copy invitation control intends. This limited intended use does not create a blanket reuse license for these pages, example responses, illustration or software. The eight added files are recorded as `LicenseRef-MDAO-No-Additional-Grant` in the [rights map](https://github.com/andydrewie/make-death-an-option/blob/main/RIGHTS-MAP.json). Existing licenses for embedded material remain in force; third-party rights and applicable legal exceptions are unchanged. See the [rights notice](https://github.com/andydrewie/make-death-an-option/blob/main/RIGHTS.md#access-memory-additions).
+
+The separate first-party counting script, `docs/assets/analytics.js`, is also recorded as `LicenseRef-MDAO-No-Additional-Grant`; existing software and content licenses are unchanged.

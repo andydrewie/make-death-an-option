@@ -12,6 +12,7 @@ for (const button of document.querySelectorAll('[data-copy]')) {
       if (!navigator.clipboard || !window.isSecureContext) throw new Error('Clipboard unavailable');
       await navigator.clipboard.writeText(field.value);
       status.textContent = 'Reading invitation copied.';
+      try { document.dispatchEvent(new CustomEvent('mdao:invitation-copied')); } catch { /* Optional analytics. */ }
     } catch {
       field.focus();
       field.select();

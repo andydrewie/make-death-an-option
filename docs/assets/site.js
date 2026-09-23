@@ -1,4 +1,4 @@
-/* Static preview enhancements. No personal input, storage, or analytics. */
+/* Static page controls. Copy text stays in the browser and clipboard. */
 'use strict';
 
 const invitationCopiedAtMarker = '{{INVITATION_COPIED_AT}}';
@@ -21,6 +21,7 @@ for (const button of document.querySelectorAll('[data-copy]')) {
       await navigator.clipboard.writeText(copiedText);
       field.value = copiedText;
       status.textContent = 'Invitation copied. Paste it into your agent.';
+      try { document.dispatchEvent(new CustomEvent('mdao:invitation-copied')); } catch { /* Optional analytics. */ }
     } catch {
       if (hasCopyTimestamp) {
         field.value = template.replace(invitationCopiedAtMarker, 'not available (manual copy)');

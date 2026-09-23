@@ -103,3 +103,7 @@ This designation records that no additional general reuse license is granted for
 The public Access Memory invitation may be copied and used with the reader's chosen agent, as the Copy invitation control intends. This narrow permission does not license unrelated page material, example responses, artwork or software for general reuse and grants no authority to retrieve personal data or act for another person. Existing terms for the original explanatory text and first-party markup on `docs/explore/index.html` remain as stated above.
 
 `docs/assets/perception.jpg` is an AI-generated, human-directed illustration, not a photograph, event record, scientific model or representation of a visitor's memory. No additional standalone reuse grant, exclusive copyright in AI-generated elements, or rights beyond those held are asserted.
+
+## Aggregate counting addition
+
+`docs/assets/analytics.js` is first-party integration code recorded as `LicenseRef-MDAO-No-Additional-Grant`. No additional general reuse license is granted for this file. It uses the documented GoatCounter counting endpoint without bundling third-party tracking code. This designation changes no existing grants for other files.
